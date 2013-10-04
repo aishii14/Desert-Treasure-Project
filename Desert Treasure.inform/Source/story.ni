@@ -30,10 +30,10 @@ A device can be broken or working. A device is usually working.
 
 Matches are a thing. Description is "A pack of survival matches. They can be lit underwater or in the middle of a downpour."
 
-Understand "light [something] with [something]" as lighting something with. 
 Lighting it with is an action applying to two things.
+Understand "light [something] with [something]" as lighting it with. 
 
-Torch is a thing in the Entrance hall. 
+Torch is a thing in the Entrance. 
 
 Check lighting it with:
 	if noun is torch and second noun is matches:
@@ -41,17 +41,17 @@ Check lighting it with:
 		now the torch is lit;
 	if noun is an animal:
 		say "You don't want to piss Anubis off, so you decide not to.";
-	if noun is not torches:
+	if noun is not torch:
 		say "That's not flammable."
 
-After switching flashlight on:
+After switching on the flashlight:
 	if flashlight is working:
 		say "You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn't look like you have much battery left.";
 		now the flashlight is lit;
 	if the flashlight is broken:
-		say: "You try to switch the flashlight on, but you don't have enough battery power to make it stay on.".
+		say "You try to switch the flashlight on, but you don't have enough battery power to make it stay on.".
 	
-After switching the flashlight off:
+After switching off the flashlight:
 	if the flashlight is working:
 		say "You switch the flashlight off.";
 	if the flashlight is broken:

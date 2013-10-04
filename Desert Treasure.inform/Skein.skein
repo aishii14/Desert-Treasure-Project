@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x9b64810" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18d7360" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xda93c80" />
-  <item nodeId="node-0x9b64810">
+  <activeNode nodeId="node-0x18d7360" />
+  <item nodeId="node-0x18d7360">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -20,10 +20,10 @@ The dark hallway is covered in dozens of various depictions of Ancient Egyptian 
     <changed>YES</changed>
     <temporary score="18">NO</temporary>
     <children>
-      <child nodeId="node-0x9ae59a0" />
+      <child nodeId="node-0x18d71f0" />
     </children>
   </item>
-  <item nodeId="node-0x9ae59a0">
+  <item nodeId="node-0x18d71f0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Desert
@@ -34,10 +34,10 @@ The sands of the desert irritates your eyes as you look around. The entire deser
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a65620" />
+      <child nodeId="node-0x18d7240" />
     </children>
   </item>
-  <item nodeId="node-0x9a65620">
+  <item nodeId="node-0x18d7240">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Entrance
@@ -48,10 +48,10 @@ The dark hallway is covered in dozens of various depictions of Ancient Egyptian 
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a2b490" />
+      <child nodeId="node-0x18d73b0" />
     </children>
   </item>
-  <item nodeId="node-0x9a2b490">
+  <item nodeId="node-0x18d73b0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -60,10 +60,10 @@ The dark hallway is covered in dozens of various depictions of Ancient Egyptian 
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a03b60" />
+      <child nodeId="node-0x18d7460" />
     </children>
   </item>
-  <item nodeId="node-0x9a03b60">
+  <item nodeId="node-0x18d7460">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 main hall
@@ -74,10 +74,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a7b160" />
+      <child nodeId="node-0x18d74d0" />
     </children>
   </item>
-  <item nodeId="node-0x9a7b160">
+  <item nodeId="node-0x18d74d0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -86,10 +86,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xdbd1760" />
+      <child nodeId="node-0x18d7520" />
     </children>
   </item>
-  <item nodeId="node-0xdbd1760">
+  <item nodeId="node-0x18d7520">
     <command xml:space="preserve">northwest</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -98,10 +98,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xdc180a0" />
+      <child nodeId="node-0x18eca70" />
     </children>
   </item>
-  <item nodeId="node-0xdc180a0">
+  <item nodeId="node-0x18eca70">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Treasury
@@ -111,10 +111,10 @@ Treasury
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xdbd1490" />
+      <child nodeId="node-0x18ecac0" />
     </children>
   </item>
-  <item nodeId="node-0xdbd1490">
+  <item nodeId="node-0x18ecac0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -123,10 +123,10 @@ Treasury
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9bb7d80" />
+      <child nodeId="node-0x18ecb10" />
     </children>
   </item>
-  <item nodeId="node-0x9bb7d80">
+  <item nodeId="node-0x18ecb10">
     <command xml:space="preserve">southwest</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -135,10 +135,10 @@ Treasury
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a0dd80" />
+      <child nodeId="node-0x18ecb80" />
     </children>
   </item>
-  <item nodeId="node-0x9a0dd80">
+  <item nodeId="node-0x18ecb80">
     <command xml:space="preserve">norht</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -147,10 +147,10 @@ Treasury
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9bd5c20" />
+      <child nodeId="node-0x18ecbf0" />
     </children>
   </item>
-  <item nodeId="node-0x9bd5c20">
+  <item nodeId="node-0x18ecbf0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -159,10 +159,10 @@ Treasury
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a0d140" />
+      <child nodeId="node-0x18d7590" />
     </children>
   </item>
-  <item nodeId="node-0x9a0d140">
+  <item nodeId="node-0x18d7590">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 main hall
@@ -173,10 +173,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9af6b40" />
+      <child nodeId="node-0x18ecd40" />
     </children>
   </item>
-  <item nodeId="node-0x9af6b40">
+  <item nodeId="node-0x18ecd40">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Hall of the Pharoah
@@ -186,10 +186,10 @@ Hall of the Pharoah
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9a0f690" />
+      <child nodeId="node-0x18ecd90" />
     </children>
   </item>
-  <item nodeId="node-0x9a0f690">
+  <item nodeId="node-0x18ecd90">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 King&apos;s chamber
@@ -199,10 +199,10 @@ King&apos;s chamber
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9af6970" />
+      <child nodeId="node-0x18ecde0" />
     </children>
   </item>
-  <item nodeId="node-0x9af6970">
+  <item nodeId="node-0x18ecde0">
     <command xml:space="preserve">south east</command>
     <result xml:space="preserve">I only understood you as far as wanting to south.
 
@@ -211,10 +211,10 @@ King&apos;s chamber
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xda8e170" />
+      <child nodeId="node-0x18ece50" />
     </children>
   </item>
-  <item nodeId="node-0xda8e170">
+  <item nodeId="node-0x18ece50">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Hall of the Pharoah
@@ -224,10 +224,10 @@ Hall of the Pharoah
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xda93c80" />
+      <child nodeId="node-0x18ecec0" />
     </children>
   </item>
-  <item nodeId="node-0xda93c80">
+  <item nodeId="node-0x18ecec0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 King&apos;s chamber

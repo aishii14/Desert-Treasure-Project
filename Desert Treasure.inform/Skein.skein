@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x9b64810" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xda93c80" />
+  <item nodeId="node-0x9b64810">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Desert Treasure
+An Interactive Fiction by Austin Ishii
+Release 1 / Serial number 131001 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Entrance
+The dark hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">NO</temporary>
+    <children>
+      <child nodeId="node-0x9ae59a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9ae59a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Desert
+The sands of the desert irritates your eyes as you look around. The entire desert is silent, and the only thing you can hear are your own heat-beat and the sound of your own breathing. It&apos;s freezing cold right now since blazing desert sun has set beyond the horizon. The Pyramid that holds the legendary Eye of Horus is stands before you, glowing with an eerie light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a65620" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a65620">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Entrance
+The dark hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a2b490" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a2b490">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a03b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a03b60">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. There&apos;s not doubt about it, this is the Eye of Horus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a7b160" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a7b160">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xdbd1760" />
+    </children>
+  </item>
+  <item nodeId="node-0xdbd1760">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc180a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc180a0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Treasury
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xdbd1490" />
+    </children>
+  </item>
+  <item nodeId="node-0xdbd1490">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9bb7d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9bb7d80">
+    <command xml:space="preserve">southwest</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a0dd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a0dd80">
+    <command xml:space="preserve">norht</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9bd5c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9bd5c20">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a0d140" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a0d140">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. There&apos;s not doubt about it, this is the Eye of Horus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9af6b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x9af6b40">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Hall of the Pharoah
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a0f690" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a0f690">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+King&apos;s chamber
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9af6970" />
+    </children>
+  </item>
+  <item nodeId="node-0x9af6970">
+    <command xml:space="preserve">south east</command>
+    <result xml:space="preserve">I only understood you as far as wanting to south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xda8e170" />
+    </children>
+  </item>
+  <item nodeId="node-0xda8e170">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Hall of the Pharoah
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xda93c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xda93c80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+King&apos;s chamber
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+</Skein>

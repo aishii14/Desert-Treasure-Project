@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x18d7360" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18d7360" />
+  <activeNode nodeId="node-0x11ce24d0" />
   <item nodeId="node-0x18d7360">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -10,16 +10,17 @@
 
 Desert Treasure
 An Interactive Fiction by Austin Ishii
-Release 1 / Serial number 131001 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 131003 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
-Entrance
-The dark hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="92">NO</temporary>
     <children>
+      <child nodeId="node-0x7aa6af0" />
       <child nodeId="node-0x18d71f0" />
     </children>
   </item>
@@ -236,5 +237,182 @@ King&apos;s chamber
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x7aa6af0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Survival Kit
+    Flashlight
+    Matches
+    Survival Food
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x10277b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x10277b10">
+    <command xml:space="preserve">switch on flashlight</command>
+    <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
+
+Entrance
+The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+You can see Torch here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x75b8f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x75b8f20">
+    <command xml:space="preserve">x entrance</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x75adbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75adbb0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Entrance
+The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+You can see Torch here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x7a53440" />
+    </children>
+  </item>
+  <item nodeId="node-0x7a53440">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x75f54e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75f54e0">
+    <command xml:space="preserve">light torch with matches</command>
+    <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x75d6700" />
+    </children>
+  </item>
+  <item nodeId="node-0x75d6700">
+    <command xml:space="preserve">switch flashlight off</command>
+    <result xml:space="preserve">You switch the flashlight off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xb56c950" />
+    </children>
+  </item>
+  <item nodeId="node-0xb56c950">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Entrance
+The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5d4280" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5d4280">
+    <command xml:space="preserve">switch flashlight on</command>
+    <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x75e6890" />
+    </children>
+  </item>
+  <item nodeId="node-0x75e6890">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting. 
+
+That is before your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. Thankfully you lit the torch before you came in so you have some lighting.  
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x102a1870" />
+    </children>
+  </item>
+  <item nodeId="node-0x102a1870">
+    <command xml:space="preserve">x flashlight</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x11cb8fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11cb8fa0">
+    <command xml:space="preserve">x walls</command>
+    <result xml:space="preserve">Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. 
+&quot;You are not welcome here. Leave this place now!&quot; 
+You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east.
+
+You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting. 
+
+That is before your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. Thankfully you lit the torch before you came in so you have some lighting.  
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ce24d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ce24d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Hall of the Queen
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
   </item>
 </Skein>

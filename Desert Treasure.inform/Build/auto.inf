@@ -10574,6 +10574,42 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
+! Rules in rulebook: Every turn (B9_every_turn)
+! ----------------------------------------------------------------------------------------------------
+! Rule 1/1 ! An every turn rule:
+! ----------------------------------------------------------------------------------------------------
+! No specific request
+! An every turn rule:
+[ R_745 ;
+      ! phrase 1
+      ! [1: if the flashlight is switched on begin]
+       if ((((Adj_70_t1_v9(I92_flashlight)))))  {
+         ! phrase 2
+         ! [2: if the player is in the main hall begin]
+          if (((I90_main_hall == ContainerOf(player))))  {
+            ! phrase 3
+            ! [3: say ~You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting. [line break][line break]That is before your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. [if torch is lit]Thankfully you lit the torch before you came in so you have some lighting. [end if] ~]
+            say__p=1;ParaContent();  print (PrintText) SC_19; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_20; 
+	if (~~(((((Adj_41_t1_v9(I95_torch))))))) jump L_Say2;
+		ParaContent();  print (PrintText) SC_21; 
+	.L_Say2; .L_SayX2;
+		ParaContent();  print (PrintText) SC_22;  .L_Say3; .L_SayX3;
+            ! phrase 4
+            ! [4: remove flashlight from play]
+             RemoveFromPlay(I92_flashlight); 
+            ! phrase 5
+            ! [5: end if]
+            }
+
+         ! phrase 6
+         ! [6: end if]
+         }
+
+   rfalse;
+];
+! ----------------------------------------------------------------------------------------------------
+
+! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: Action-processing (B10_action_processing)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/11 ! This is the announce items from multiple object lists rule:
@@ -10604,7 +10640,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_20 ;
       ! phrase 1
       ! [1: if the current item from the multiple object list is not nothing , say ~[current item from the multiple object list]: [run paragraph on]~]
-       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_19; ParaContent();  RunParagraphOn();  .L_Say2; .L_SayX2;  }
+       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_23; ParaContent();  RunParagraphOn();  .L_Say4; .L_SayX4;  }
    rfalse;
 ];
 ! No specific request
@@ -10938,7 +10974,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_746, 746);
       ! phrase 1
       ! [1: say ~Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. [line break]'You are not welcome here. Leave this place now!' [line break]You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east.~]
-      say__p=1;ParaContent();  print (PrintText) SC_20; ParaContent();  new_line; ParaContent();  print (PrintText) SC_21; ParaContent();  new_line; ParaContent();  print (PrintText) SC_22;  new_line; .L_Say3; .L_SayX3;
+      say__p=1;ParaContent();  print (PrintText) SC_24; ParaContent();  new_line; ParaContent();  print (PrintText) SC_25; ParaContent();  new_line; ParaContent();  print (PrintText) SC_26;  new_line; .L_Say5; .L_SayX5;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_746, 746, true);
@@ -10949,26 +10985,10 @@ self = noun;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: After (B24_after)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/3 ! After entering Main hall for the first time:
-!   >>> I - Number of aspects constrained >>>
-! Rule 2/3 ! After switching on the flashlight:
+! Rule 1/2 ! After switching on the flashlight:
 !   === which is equally specific with ===
-! Rule 3/3 ! After switching off the flashlight:
+! Rule 2/2 ! After switching off the flashlight:
 ! ----------------------------------------------------------------------------------------------------
-! No specific request
-! After entering Main hall for the first time:
-[ R_745 ;
-   if ((PAPR_1() && (((TimesActionHasHappened-->1) == 1) && (ActionCurrentlyHappeningFlag->1)))) { ! Runs only when pattern matches
-self = noun;
-   if (debug_rules) DB_Rule(R_745, 745);
-      ! phrase 1
-      ! [1: say ~You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting...~]
-      say__p=1;ParaContent();  print (PrintText) SC_23;  new_line; .L_Say4; .L_SayX4;
-      RulebookSucceeds(); rtrue;
-   } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_745, 745, true);
-   rfalse;
-];
 ! No specific request
 ! After switching on the flashlight:
 [ R_743 ;
@@ -10980,22 +11000,12 @@ self = noun;
        if ((((Adj_75_t1_v9(I92_flashlight)))))  {
          ! phrase 2
          ! [2: say ~You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn't look like you have much battery left.~]
-         say__p=1;ParaContent();  print (PrintText) SC_24;  new_line; .L_Say5; .L_SayX5;
+         say__p=1;ParaContent();  print (PrintText) SC_27;  new_line; .L_Say6; .L_SayX6;
          ! phrase 3
          ! [3: now the flashlight is lit]
           (Adj_41_t2_v9(I92_flashlight)); 
          ! phrase 4
          ! [4: end if]
-         }
-
-      ! phrase 5
-      ! [5: if the flashlight is broken begin]
-       if ((((Adj_74_t1_v9(I92_flashlight)))))  {
-         ! phrase 6
-         ! [6: say ~You try to switch the flashlight on, but you don't have enough battery power to make it stay on.~]
-         say__p=1;ParaContent();  print (PrintText) SC_25;  new_line; .L_Say6; .L_SayX6;
-         ! phrase 7
-         ! [7: end if]
          }
 
       RulebookSucceeds(); rtrue;
@@ -11014,19 +11024,9 @@ self = noun;
        if ((((Adj_75_t1_v9(I92_flashlight)))))  {
          ! phrase 2
          ! [2: say ~You switch the flashlight off.~]
-         say__p=1;ParaContent();  print (PrintText) SC_26;  new_line; .L_Say7; .L_SayX7;
+         say__p=1;ParaContent();  print (PrintText) SC_28;  new_line; .L_Say7; .L_SayX7;
          ! phrase 3
          ! [3: end if]
-         }
-
-      ! phrase 4
-      ! [4: if the flashlight is broken begin]
-       if ((((Adj_74_t1_v9(I92_flashlight)))))  {
-         ! phrase 5
-         ! [5: say ~It's broken so it really doesn't matter.~]
-         say__p=1;ParaContent();  print (PrintText) SC_27;  new_line; .L_Say8; .L_SayX8;
-         ! phrase 6
-         ! [6: end if]
          }
 
       RulebookSucceeds(); rtrue;
@@ -11095,7 +11095,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_59, 59);
       ! phrase 1
       ! [1: say the printed plural name of the item]
-      say__p=1;ParaContent(); @push self;  print (PrintText) GProperty(9, self=t_0,plural); @pull self;  .L_Say9; .L_SayX9;
+      say__p=1;ParaContent(); @push self;  print (PrintText) GProperty(9, self=t_0,plural); @pull self;  .L_Say8; .L_SayX8;
       RulebookSucceeds(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_59, 59, true);
@@ -11118,7 +11118,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_60, 60);
       ! phrase 1
       ! [1: say ~[listing group size in words] ~]
-      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_28;  .L_Say10; .L_SayX10;
+      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_22;  .L_Say9; .L_SayX9;
       ! phrase 2
       ! [2: carry out the printing the plural name activity with the item]
        CarryOutActivity(V1_printing_the_plural_name_, t_0); 
@@ -11331,7 +11331,7 @@ self = noun;
        if (((t_0 < 1))) {  if (ProcessRulebook(IMMEDIATELY_QUIT_R)) rtrue;   }
       ! phrase 10
       ! [10: say ~Would you like to ~]
-      say__p=1;ParaContent();  print (PrintText) SC_29;  .L_Say11; .L_SayX11;
+      say__p=1;ParaContent();  print (PrintText) SC_29;  .L_Say10; .L_SayX10;
       ! phrase 11
       ! [11: repeat through the table of final question options begin]
        @push ct_0; @push ct_1;
@@ -11349,7 +11349,7 @@ self = noun;
                 if (( (ExistsTableLookUpEntry(ct_0,100,ct_1)) ))  {
                   ! phrase 15
                   ! [15: say final question wording entry]
-                  say__p=1;ParaContent();  print (PrintText) TableLookUpEntry(ct_0,100,ct_1);  .L_Say12; .L_SayX12;
+                  say__p=1;ParaContent();  print (PrintText) TableLookUpEntry(ct_0,100,ct_1);  .L_Say11; .L_SayX11;
                   ! phrase 16
                   ! [16: decrease named options count by 1]
                    t_0 = t_0 - 1; 
@@ -11358,23 +11358,23 @@ self = noun;
                    if (((t_0 == 0)))  {
                      ! phrase 18
                      ! [18: say ~?[line break]~]
-                     say__p=1;ParaContent();  print (PrintText) SC_30; ParaContent();  new_line;  .L_Say13; .L_SayX13;
+                     say__p=1;ParaContent();  print (PrintText) SC_30; ParaContent();  new_line;  .L_Say12; .L_SayX12;
                      ! phrase 19
                      ! [19: otherwise if the named options count is 1]
                       } else if (((t_0 == 1))) { 
                      ! phrase 20
                      ! [20: if the serial comma option is active , say ~,~]
-                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_31;  .L_Say14; .L_SayX14;  }
+                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_31;  .L_Say13; .L_SayX13;  }
                      ! phrase 21
                      ! [21: say ~ or ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_32;  .L_Say15; .L_SayX15;
+                     say__p=1;ParaContent();  print (PrintText) SC_32;  .L_Say14; .L_SayX14;
                      ! phrase 22
                      ! [22: otherwise]
                      } else {
 
                      ! phrase 23
                      ! [23: say ~, ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_33;  .L_Say16; .L_SayX16;
+                     say__p=1;ParaContent();  print (PrintText) SC_33;  .L_Say15; .L_SayX15;
                      ! phrase 24
                      ! [24: end if]
                      }
@@ -11403,7 +11403,7 @@ self = noun;
 [ R_68 ;
       ! phrase 1
       ! [1: say ~> [run paragraph on]~]
-      say__p=1;ParaContent();  print (PrintText) SC_34; ParaContent();  RunParagraphOn();  .L_Say17; .L_SayX17;
+      say__p=1;ParaContent();  print (PrintText) SC_34; ParaContent();  RunParagraphOn();  .L_Say16; .L_SayX16;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -11656,29 +11656,29 @@ self = noun;
                 if (((t_0 ofclass K1_room)))  {
                   ! phrase 22
                   ! [22: if the domain is the location , say ~You ~]
-                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_35;  .L_Say18; .L_SayX18;  }
+                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_35;  .L_Say17; .L_SayX17;  }
                   ! phrase 23
                   ! [23: otherwise say ~In [the domain] you ~]
-                   else { say__p=1;ParaContent();  print (PrintText) SC_36; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say19; .L_SayX19;  }
+                   else { say__p=1;ParaContent();  print (PrintText) SC_36; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say18; .L_SayX18;  }
                   ! phrase 24
                   ! [24: otherwise if the domain is a supporter]
                    } else if (((t_0 ofclass K6_supporter))) { 
                   ! phrase 25
                   ! [25: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say20; .L_SayX20;
+                  say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say19; .L_SayX19;
                   ! phrase 26
                   ! [26: otherwise if the domain is an animal]
                    } else if (((t_0 ofclass K12_animal))) { 
                   ! phrase 27
                   ! [27: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say21; .L_SayX21;
+                  say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say20; .L_SayX20;
                   ! phrase 28
                   ! [28: otherwise]
                   } else {
 
                   ! phrase 29
                   ! [29: say ~In [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_36; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say22; .L_SayX22;
+                  say__p=1;ParaContent();  print (PrintText) SC_36; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_37;  .L_Say21; .L_SayX21;
                   ! phrase 30
                   ! [30: end if]
                   }
@@ -11686,10 +11686,10 @@ self = noun;
                ! phrase 31
                ! [31: say ~can [if the locale paragraph count is greater than 0]also [end if]see ~]
                say__p=1;ParaContent();  print (PrintText) SC_39; 
-	if (~~(((((Global_Vars-->8) > 0))))) jump L_Say23;
+	if (~~(((((Global_Vars-->8) > 0))))) jump L_Say22;
 		ParaContent();  print (PrintText) SC_40; 
-	.L_Say23; .L_SayX23;
-		ParaContent();  print (PrintText) SC_41;  .L_Say24; .L_SayX24;
+	.L_Say22; .L_SayX22;
+		ParaContent();  print (PrintText) SC_41;  .L_Say23; .L_SayX23;
                ! phrase 32
                ! [32: let the common holder be nothing]
                 t_2 = nothing; 
@@ -11732,13 +11732,13 @@ self = noun;
 		give subst__v workflag2; else give subst__v ~workflag2;
 		WriteListOfMarkedObjects(ENGLISH_BIT+RECURSE_BIT+PARTINV_BIT+
 			TERSE_BIT+CONCEAL_BIT);
-		@pull subst__v;  .L_Say25; .L_SayX25;  }
+		@pull subst__v;  .L_Say24; .L_SayX24;  }
                ! phrase 44
                ! [44: if the domain is the location , say ~ here~]
-                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_42;  .L_Say26; .L_SayX26;  }
+                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_42;  .L_Say25; .L_SayX25;  }
                ! phrase 45
                ! [45: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say27; .L_SayX27;
+               say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say26; .L_SayX26;
                ! phrase 46
                ! [46: unfilter list recursion]
                 list_filter_routine = 0; 
@@ -11917,7 +11917,7 @@ self = noun;
        if (((~~(((Adj_55_t1_v9(t_0)))))))  {
          ! phrase 2
          ! [2: if a paragraph break is pending , say ~[conditional paragraph break]~]
-          if (( (say__p) )) { say__p=1;ParaContent();  DivideParagraphPoint();  .L_Say28; .L_SayX28;  }
+          if (( (say__p) )) { say__p=1;ParaContent();  DivideParagraphPoint();  .L_Say27; .L_SayX27;  }
          ! phrase 3
          ! [3: carry out the writing a paragraph about activity with the item]
           CarryOutActivity(V6_writing_a_paragraph_about, t_0); 
@@ -11932,7 +11932,7 @@ self = noun;
              (Adj_55_t2_v9(t_0)); 
             ! phrase 7
             ! [7: say ~[command clarification break]~]
-            say__p=1;ParaContent();  CommandClarificationBreak();  .L_Say29; .L_SayX29;
+            say__p=1;ParaContent();  CommandClarificationBreak();  .L_Say28; .L_SayX28;
             ! phrase 8
             ! [8: end if]
             }
@@ -11970,10 +11970,10 @@ self = noun;
              (Global_Vars-->8) = (Global_Vars-->8) + 1; 
             ! phrase 4
             ! [4: say ~[initial appearance of the item]~]
-            say__p=1;ParaContent(); @push self;  print (PrintText) GProperty(9, self=t_0,initial); @pull self;  .L_Say30; .L_SayX30;
+            say__p=1;ParaContent(); @push self;  print (PrintText) GProperty(9, self=t_0,initial); @pull self;  .L_Say29; .L_SayX29;
             ! phrase 5
             ! [5: say ~[paragraph break]~]
-            say__p=1;ParaContent();  DivideParagraphPoint(); new_line;  .L_Say31; .L_SayX31;
+            say__p=1;ParaContent();  DivideParagraphPoint(); new_line;  .L_Say30; .L_SayX30;
             ! phrase 6
             ! [6: if a locale-supportable thing is on the item begin]
              if ((Prop_7(,t_0)))  {
@@ -11999,13 +11999,13 @@ self = noun;
 
                ! phrase 13
                ! [13: say ~On [the item] ~]
-               say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_28;  .L_Say32; .L_SayX32;
+               say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_22;  .L_Say31; .L_SayX31;
                ! phrase 14
                ! [14: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
                 WriteListFrom(child(t_0), 3800); 
                ! phrase 15
                ! [15: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say33; .L_SayX33;
+               say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say32; .L_SayX32;
                ! phrase 16
                ! [16: end if]
                }
@@ -12073,13 +12073,13 @@ self = noun;
              (Global_Vars-->8) = (Global_Vars-->8) + 1; 
             ! phrase 11
             ! [11: say ~On [the item] ~]
-            say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_28;  .L_Say34; .L_SayX34;
+            say__p=1;ParaContent();  print (PrintText) SC_38; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_22;  .L_Say33; .L_SayX33;
             ! phrase 12
             ! [12: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
              WriteListFrom(child(t_0), 3800); 
             ! phrase 13
             ! [13: say ~.[paragraph break]~]
-            say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say35; .L_SayX35;
+            say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say34; .L_SayX34;
             ! phrase 14
             ! [14: end if]
             }
@@ -12129,7 +12129,7 @@ self = noun;
        GL__M(##Inv,2,noun); 
       ! phrase 2
       ! [2: say ~:[line break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  new_line;  .L_Say36; .L_SayX36;
+      say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  new_line;  .L_Say35; .L_SayX35;
       ! phrase 3
       ! [3: list the contents of the player , with newlines , indented , including contents , giving inventory information , with extra indentation]
        WriteListFrom(child(player), 8215); 
@@ -13725,7 +13725,7 @@ self = noun;
           if (((~~(((MStack-->MstVO(20007,3)) == nothing)))))  {
             ! phrase 49
             ! [49: say ~ ~]
-            say__p=1;ParaContent();  print (PrintText) SC_28;  .L_Say37; .L_SayX37;
+            say__p=1;ParaContent();  print (PrintText) SC_22;  .L_Say36; .L_SayX36;
             ! phrase 50
             ! [50: if the vehicle gone by is a supporter , issue actor-based library message going action number 20 for the vehicle gone by]
              if ((((MStack-->MstVO(20007,3)) ofclass K6_supporter))) {  AGL__M(##Go,20,(MStack-->MstVO(20007,3)));   }
@@ -13780,7 +13780,7 @@ self = noun;
              AGL__M(##Go,26,noun); 
             ! phrase 66
             ! [66: say ~.~]
-            say__p=1;ParaContent();  print (PrintText) SC_43;  new_line; .L_Say38; .L_SayX38;
+            say__p=1;ParaContent();  print (PrintText) SC_43;  new_line; .L_Say37; .L_SayX37;
             ! phrase 67
             ! [67: try looking]
              TryAction(0, player, ##Look, 0, 0);; 
@@ -13793,7 +13793,7 @@ self = noun;
 
          ! phrase 70
          ! [70: say ~.~]
-         say__p=1;ParaContent();  print (PrintText) SC_43;  new_line; .L_Say39; .L_SayX39;
+         say__p=1;ParaContent();  print (PrintText) SC_43;  new_line; .L_Say38; .L_SayX38;
          ! phrase 71
          ! [71: end if]
          }
@@ -14380,7 +14380,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_172, 172);
       ! phrase 1
       ! [1: say bold type]
-      say__p=1;ParaContent();  style bold;  .L_Say40; .L_SayX40;
+      say__p=1;ParaContent();  style bold;  .L_Say39; .L_SayX39;
       ! phrase 2
       ! [2: if the visibility level count is 0 begin]
        if ((((MStack-->MstVO(20011,2)) == 0)))  {
@@ -14398,21 +14398,21 @@ self = noun;
           } else if ((((MStack-->MstVO(20011,3)) == real_location))) { 
          ! phrase 7
          ! [7: say ~[visibility ceiling]~]
-         say__p=1;ParaContent();  print (PrintShortName) (MStack-->MstVO(20011,3));  .L_Say41; .L_SayX41;
+         say__p=1;ParaContent();  print (PrintShortName) (MStack-->MstVO(20011,3));  .L_Say40; .L_SayX40;
          ! phrase 8
          ! [8: otherwise]
          } else {
 
          ! phrase 9
          ! [9: say ~[The visibility ceiling]~]
-         say__p=1;ParaContent();  print (The) (MStack-->MstVO(20011,3));  .L_Say42; .L_SayX42;
+         say__p=1;ParaContent();  print (The) (MStack-->MstVO(20011,3));  .L_Say41; .L_SayX41;
          ! phrase 10
          ! [10: end if]
          }
 
       ! phrase 11
       ! [11: say roman type]
-      say__p=1;ParaContent();  style roman;  .L_Say43; .L_SayX43;
+      say__p=1;ParaContent();  style roman;  .L_Say42; .L_SayX42;
       ! phrase 12
       ! [12: let intermediate level be the visibility-holder of the actor]
        t_0 =  VisibilityParent(actor) ; 
@@ -14431,10 +14431,10 @@ self = noun;
 
       ! phrase 17
       ! [17: say line break]
-      say__p=1;ParaContent();  new_line;  .L_Say44; .L_SayX44;
+      say__p=1;ParaContent();  new_line;  .L_Say43; .L_SayX43;
       ! phrase 18
       ! [18: say run paragraph on with special look spacing]
-      say__p=1;ParaContent();  SpecialLookSpacingBreak();  .L_Say45; .L_SayX45;
+      say__p=1;ParaContent();  SpecialLookSpacingBreak();  .L_Say44; .L_SayX44;
    } ! Runs only when actor is the player
    else if (debug_rules > 1) DB_Rule(R_172, 172, true);
    rfalse;
@@ -14640,7 +14640,7 @@ self = noun;
        if ((((WhetherProvides(noun, false, description)))) && (((~~((GProperty(OBJECT_TY, noun,description) == EMPTY_TEXT_VALUE))))))  {
          ! phrase 2
          ! [2: say ~[the description of the noun][line break]~]
-         say__p=1;ParaContent(); @push self;  print (PrintText) GProperty(OBJECT_TY, self=noun,description); @pull self; ParaContent();  new_line;  .L_Say46; .L_SayX46;
+         say__p=1;ParaContent(); @push self;  print (PrintText) GProperty(OBJECT_TY, self=noun,description); @pull self; ParaContent();  new_line;  .L_Say45; .L_SayX45;
          ! phrase 3
          ! [3: now examine text printed is true]
           (MStack-->MstVO(20012,0)) = 1; 
@@ -17311,7 +17311,7 @@ self = noun;
        if ((((noun == I95_torch))) && (((second == I93_matches))))  {
          ! phrase 2
          ! [2: say ~You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.~]
-         say__p=1;ParaContent();  print (PrintText) SC_45;  new_line; .L_Say47; .L_SayX47;
+         say__p=1;ParaContent();  print (PrintText) SC_45;  new_line; .L_Say46; .L_SayX46;
          ! phrase 3
          ! [3: now the torch is lit]
           (Adj_41_t2_v9(I95_torch)); 
@@ -17324,7 +17324,7 @@ self = noun;
        if (((noun ofclass K12_animal)))  {
          ! phrase 6
          ! [6: say ~You don't want to piss Anubis off, so you decide not to.~]
-         say__p=1;ParaContent();  print (PrintText) SC_46;  new_line; .L_Say48; .L_SayX48;
+         say__p=1;ParaContent();  print (PrintText) SC_46;  new_line; .L_Say47; .L_SayX47;
          ! phrase 7
          ! [7: end if]
          }
@@ -17334,7 +17334,7 @@ self = noun;
        if (((~~((noun == I95_torch)))))  {
          ! phrase 9
          ! [9: say ~That's not flammable.~]
-         say__p=1;ParaContent();  print (PrintText) SC_47;  new_line; .L_Say49; .L_SayX49;
+         say__p=1;ParaContent();  print (PrintText) SC_47;  new_line; .L_Say48; .L_SayX48;
          ! phrase 10
          ! [10: end if]
          }
@@ -19255,7 +19255,7 @@ Array B5_when_play_begins --> R_740 NULL; ! 1 rule(s)
 Constant B6_when_play_ends = EMPTY_RULEBOOK;
 Array B7_when_scene_begins --> R_57 NULL; ! 1 rule(s)
 Constant B8_when_scene_ends = EMPTY_RULEBOOK;
-Constant B9_every_turn = EMPTY_RULEBOOK;
+Array B9_every_turn --> R_745 NULL; ! 1 rule(s)
 Array B10_action_processing --> R_20 R_19 R_21 BASIC_VISIBILITY_R BASIC_ACCESSIBILITY_R CARRYING_REQUIREMENTS_R R_22 REQUESTED_ACTIONS_REQUIRE_R CARRY_OUT_REQUESTED_ACTIONS_R DESCEND_TO_SPECIFIC_ACTION_R R_23 NULL; ! 11 rule(s)
 Array B11_setting_action_variables --> R_137 R_171 R_159 NULL; ! 3 rule(s)
 Array B12_specific_action_processi --> WORK_OUT_DETAILS_OF_SPECIFIC_R R_24 R_25 R_26 R_27 R_28 R_29 R_30 NULL; ! 8 rule(s)
@@ -19270,7 +19270,7 @@ Constant B20_before = EMPTY_RULEBOOK;
 Array B21_instead --> R_746 NULL; ! 1 rule(s)
 Constant B22_check = EMPTY_RULEBOOK;
 Constant B23_carry_out = EMPTY_RULEBOOK;
-Array B24_after --> R_745 R_743 R_744 NULL; ! 3 rule(s)
+Array B24_after --> R_743 R_744 NULL; ! 2 rule(s)
 Constant B25_report = EMPTY_RULEBOOK;
 Array B26_does_the_player_mean --> R_36 NULL; ! 1 rule(s)
 Constant B27_when_entire_game_begins = EMPTY_RULEBOOK;
@@ -23808,7 +23808,7 @@ Array RulebookNames -->
 		if (R == R_742) { print "Check lighting it with"; return; } ! 695, case 2
 		if (R == R_743) { print "After switching on the flashlight"; return; } ! 696, case 2
 		if (R == R_744) { print "After switching off the flashlight"; return; } ! 697, case 2
-		if (R == R_745) { print "After entering Main hall for the first time"; return; } ! 698, case 2
+		if (R == R_745) { print "An every turn rule"; return; } ! 698, case 2
 		if (R == R_746) { print "Instead of examining walls for the first time"; return; } ! 699, case 2
 		if (R == R_8) { print "start in the correct scenes rule"; return; } ! 700, case 1
 		if (R == POSITION_PLAYER_IN_MODEL_R) { print "position player in model world rule"; return; } ! 701, case 1
@@ -26120,7 +26120,7 @@ Verb meta 'tree'
           t_0 = (Resolver_5(t_1,real_location,"source", 11)); 
          ! phrase 4
          ! [4: if place is a room , say ~ [way]~]
-          if (((t_0 ofclass K1_room))) { say__p=1;ParaContent();  print (PrintText) SC_28; ParaContent();  print (PrintShortName) t_1;  .L_Say50; .L_SayX50;  }
+          if (((t_0 ofclass K1_room))) { say__p=1;ParaContent();  print (PrintText) SC_22; ParaContent();  print (PrintShortName) t_1;  .L_Say49; .L_SayX49;  }
          ! phrase 5
          ! [5: end repeat]
          }
@@ -26129,12 +26129,12 @@ Verb meta 'tree'
    rfalse;
 ];
 [ text_routine_0;
-say__p=1;ParaContent();  print (PrintText) SC_48; ParaContent(); (PHR_741_r8 ()); .L_Say51; .L_SayX51;
+say__p=1;ParaContent();  print (PrintText) SC_48; ParaContent(); (PHR_741_r8 ()); .L_Say50; .L_SayX50;
     rtrue;
 ];
 
 [ text_routine_1;
-say__p=1;ParaContent();  print (PrintShortName) real_location;  .L_Say52; .L_SayX52;
+say__p=1;ParaContent();  print (PrintShortName) real_location;  .L_Say51; .L_SayX51;
     rtrue;
 ];
 
@@ -26161,14 +26161,10 @@ say__p=1;ParaContent();  print (PrintShortName) real_location;  .L_Say52; .L_Say
 if ((action ==##Examine) &&  (actor==player) && ((noun == I100_walls) && (true))) rtrue;
     rfalse;
 ];
-[ PAPR_1 ;
-if ((action ==##Enter) &&  (actor==player) && ((noun == I90_main_hall) && (true))) rtrue;
-    rfalse;
-];
-Array PastActionsI6Routines --> PAPR_0 PAPR_1 0 0;
+Array PastActionsI6Routines --> PAPR_0 0 0;
 
 Constant NO_PAST_TENSE_CONDS 0;
-Constant NO_PAST_TENSE_ACTIONS 2;
+Constant NO_PAST_TENSE_ACTIONS 1;
 
 [ TestSinglePastState past_flag pt turn_end wanted
 	old new trips consecutives ct_0 ct_1 I7BASPL;
@@ -27844,15 +27840,15 @@ ArgumentTypeFailed(filename, line);
 Array ConstantListPointers --> 
  0 0;
 
-Constant SC_28 = " ";
+Constant SC_22 = " ";
 Constant SC_42 = " here";
 Constant SC_32 = " or ";
 Constant SC_37 = " you ";
-Constant SC_21 = "~You are not welcome here. Leave this place now!~ ";
+Constant SC_25 = "~You are not welcome here. Leave this place now!~ ";
 Constant SC_33 = ", ";
 Constant SC_31 = ",";
 Constant SC_43 = ".";
-Constant SC_19 = ": ";
+Constant SC_23 = ": ";
 Constant SC_44 = ":";
 Constant SC_34 = "> ";
 Constant SC_13 = ">";
@@ -27863,28 +27859,28 @@ Constant SC_4 = "As good-looking as ever.";
 Constant SC_2 = "Austin Ishii";
 Constant SC_48 = "Exits: ";
 Constant SC_36 = "In ";
-Constant SC_27 = "It's broken so it really doesn't matter.";
 Constant SC_38 = "On ";
 Constant SC_11 = "On the mural on the left is the Pharoah of Egypt, the crown of kingdom rests upon his head. He holds a flail and a crook in hand, symbols of his authority as the ruler of the kingdom. On the right wall is the Pharoah's bride, the Queen. She did not hold as much power as the Pharoah, but she is still a very influential person.";
 Constant SC_17 = "QUIT";
 Constant SC_14 = "RESTART";
 Constant SC_15 = "RESTORE a saved game";
+Constant SC_21 = "Thankfully you lit the torch before you came in so you have some lighting. ";
+Constant SC_20 = "That is before your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. ";
 Constant SC_47 = "That's not flammable.";
-Constant SC_8 = "The dark hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.";
+Constant SC_8 = "The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.";
 Constant SC_10 = "The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.";
 Constant SC_12 = "This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should.";
 Constant SC_18 = "UNDO the last command";
 Constant SC_29 = "Would you like to ";
 Constant SC_35 = "You ";
-Constant SC_22 = "You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east.";
+Constant SC_26 = "You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east.";
 Constant SC_46 = "You don't want to piss Anubis off, so you decide not to.";
 Constant SC_45 = "You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.";
-Constant SC_23 = "You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting...";
-Constant SC_26 = "You switch the flashlight off.";
-Constant SC_25 = "You try to switch the flashlight on, but you don't have enough battery power to make it stay on.";
-Constant SC_24 = "You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn't look like you have much battery left.";
+Constant SC_19 = "You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting. ";
+Constant SC_28 = "You switch the flashlight off.";
+Constant SC_27 = "You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn't look like you have much battery left.";
 Constant SC_9 = "You wince as you open the doors outside. The sandstorm that forced you to come make it impossible leave the tomb. Looks like you're stuck here until the storm subsides.";
-Constant SC_20 = "Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. ";
+Constant SC_24 = "Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. ";
 Constant SC_6 = "Your trusty flashlight. You're not sure how much battery it has left, but you should probably find something else to your surroundings by just in case.";
 Constant SC_40 = "also ";
 Constant SC_39 = "can ";

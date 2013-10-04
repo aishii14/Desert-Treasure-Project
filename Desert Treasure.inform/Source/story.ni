@@ -26,9 +26,14 @@ Flashlight is a device. The description of a Flashlight is "Your trusty flashlig
 
 A device can be broken or working. A device is usually working. 
 
+[matches and torches]
+
 Matches are a thing. Description is "A pack of survival matches. They can be lit underwater or in the middle of a downpour."
 
 Understand "light [something] with [something]" as lighting something with. 
+Lighting it with is an action applying to two things.
+
+Torch is a thing in the Entrance hall. 
 
 Check lighting it with:
 	if noun is torch and second noun is matches:

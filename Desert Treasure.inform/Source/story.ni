@@ -22,8 +22,6 @@ The Desert is a room. It is south of the Entrance. "You wince as you open the do
 
 Survival Kit is a portable container. It contains Flashlight, Matches, and Survival Food. The Survival Kit is carried by the player. Description is "A rough, waterproof survival kit. You packed it just in case something like this happens. Looks like your paranoia paid off this time."
 
-A device can be broken or working. A device is usually working. 
-
 Flashlight is a device. The description of a Flashlight is "Your trusty flashlight. You're not sure how much battery it has left, but you should probably find something else to your surroundings by just in case."
 
 [matches and torches]
@@ -33,7 +31,7 @@ Matches are a thing. Description is "A pack of survival matches. They can be lit
 Lighting it with is an action applying to two things.
 Understand "light [something] with [something]" as lighting it with. 
 
-Torch is a thing in the Entrance. 
+Torch is a thing in the Entrance. Description is "A[if torch is unlit] torch that smells like oil [otherwise if torch is lit] a lit torch that burns brightly [end if]."
 
 Check lighting it with:
 	if noun is torch and second noun is matches:
@@ -45,33 +43,37 @@ Check lighting it with:
 		say "That's not flammable."
 
 After switching on the flashlight:
-	if flashlight is working:
 		say "You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn't look like you have much battery left.";
-		now the flashlight is lit;
+		now the flashlight is lit.
 	
 After switching off the flashlight:
-	if the flashlight is working:
-		say "You switch the flashlight off."
+		say "You switch the flashlight off.";
+		now the flashlight is unlit. 
 
 The Main Hall is a dark room. It is north of the Hallway, south of the Treasury, east of the Hall of the Pharoah,  and west of the Queen's hall. Description is "The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important."
 
 An every turn rule:
-	If the flashlight is switched on:
-		if the player is in the Main Hall:
-			say "You marvel at the scenery that is displayed before you. You somehow managed to find an Ancient Egyptian Tomb in the middle of nowhere! Since you cannot leave, you might as well explore the area. Those walls look interesting. [line break][line break]That is before your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. [if torch is lit]Thankfully you lit the torch before you came in so you have some lighting. [end if] ";
+	If flashlight is switched on:
+		if the player is in Main Hall:
+			say "Your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. [if torch is lit]Thankfully you lit the torch before you came in so you have some lighting. [end if] ";
 			remove flashlight from play.
 		
 Instead of examining walls for the first time:
-	say "Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. [line break]'You are not welcome here. Leave this place now!' [line break]You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east."
+	say "Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. [line break]'You are not welcome here. Leave this place now!' [line break]You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east.";
+	move Large Jackal to Hall of the Moon.
 
 Walls are scenery in the Main Hall. Description is "On the mural on the left is the Pharoah of Egypt, the crown of kingdom rests upon his head. He holds a flail and a crook in hand, symbols of his authority as the ruler of the kingdom. On the right wall is the Pharoah's bride, the Queen. She did not hold as much power as the Pharoah, but she is still a very influential person."
 
-The Hall of the Pharoah is a room. It is west of the Main Hall and south of the Pharoah's Chamber. Description is "This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should."
+The Hall of the Sun is a room. It is west of the Main Hall and south of the Pharoah's Chamber. Description is "This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should."
 
 The King's Chamber is a room. It is north of the Hall of the Pharoah.
 
-The Hall of the Queen is a room. It is east of the Main Hall and south of the Queen's Chamber.
+The Hall of the Moon is a room. It is east of the Main Hall and south of the Queen's Chamber.
 
 The Queen's Chamber is a room. It is north of the Hall of the Queen. 
 
 The Treasury is north of the Main Hall. 
+
+[Guardian Anubis Coding]
+
+Large Black Jackal is an animal. Description is "A large black jackal with a golden collar around its neck. Its crimson eyes stare into your soul."

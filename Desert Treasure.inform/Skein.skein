@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18e3e80" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x6da09f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1037bb80" />
-  <item nodeId="node-0x18e3e80">
+  <activeNode nodeId="node-0x13533560" />
+  <item nodeId="node-0x6da09f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -10,7 +10,7 @@
 
 Desert Treasure
 An Interactive Fiction by Austin Ishii
-Release 1 / Serial number 131009 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 131011 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Darkness
 It is pitch dark, and you can&apos;t see a thing.
@@ -18,230 +18,17 @@ It is pitch dark, and you can&apos;t see a thing.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">NO</temporary>
+    <temporary score="1602">NO</temporary>
     <children>
-      <child nodeId="node-0x18e5210" />
-      <child nodeId="node-0x18e3f20" />
-      <child nodeId="node-0x8483990" />
-      <child nodeId="node-0x18e49b0" />
+      <child nodeId="node-0x6da3c90" />
+      <child nodeId="node-0x6da3360" />
+      <child nodeId="node-0x6da1b40" />
+      <child nodeId="node-0x6da1d80" />
+      <child nodeId="node-0x6da0a90" />
     </children>
   </item>
-  <item nodeId="node-0x18e49b0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Desert
-The sands of the desert irritates your eyes as you look around. The entire desert is silent, and the only thing you can hear are your own heat-beat and the sound of your own breathing. It&apos;s freezing cold right now since blazing desert sun has set beyond the horizon. The Pyramid that holds the legendary Eye of Horus is stands before you, glowing with an eerie light.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4a20" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4a20">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Entrance
-The dark hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4a90" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4a90">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4b00" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4b00">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. There&apos;s not doubt about it, this is the Eye of Horus.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4b70" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4b70">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4be0">
-    <command xml:space="preserve">northwest</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4c50" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4c50">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Treasury
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4cc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4cc0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4d30" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4d30">
-    <command xml:space="preserve">southwest</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4da0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4da0">
-    <command xml:space="preserve">norht</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4e10" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4e10">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4830" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4830">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. There&apos;s not doubt about it, this is the Eye of Horus.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e48a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e48a0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Hall of the Pharoah
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e4910" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e4910">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-King&apos;s chamber
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e50c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e50c0">
-    <command xml:space="preserve">south east</command>
-    <result xml:space="preserve">I only understood you as far as wanting to south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e5130" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e5130">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Hall of the Pharoah
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x18e51a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18e51a0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-King&apos;s chamber
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="17">YES</temporary>
-  </item>
-  <item nodeId="node-0x8483990">
-    <command xml:space="preserve">switch on flashlight</command>
+  <item nodeId="node-0x6da0a90">
+    <command xml:space="preserve">switch flashlight on</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
 Entrance
@@ -252,61 +39,50 @@ You can see a Torch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0xd46b130" />
+      <child nodeId="node-0x6da0b00" />
+      <child nodeId="node-0x6d5f820" />
     </children>
   </item>
-  <item nodeId="node-0xd46b130">
+  <item nodeId="node-0x6d5f820">
+    <command xml:space="preserve">x torch</command>
+    <result xml:space="preserve">A torch that smells like oil.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6db6760" />
+    </children>
+  </item>
+  <item nodeId="node-0x6db6760">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0xd4671d0" />
+      <child nodeId="node-0x6d43de0" />
     </children>
   </item>
-  <item nodeId="node-0xd4671d0">
+  <item nodeId="node-0x6d43de0">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
+That&apos;s already lit.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0x7200d70" />
+      <child nodeId="node-0x1bcb390" />
     </children>
   </item>
-  <item nodeId="node-0x7200d70">
-    <command xml:space="preserve">extinguish torch</command>
-    <result xml:space="preserve">You extinguish your torch. You curse to yourself after you do so. Now you can&apos;t see anything!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0xd436520" />
-    </children>
-  </item>
-  <item nodeId="node-0xd436520">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Entrance
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0xbf50da0" />
-    </children>
-  </item>
-  <item nodeId="node-0xbf50da0">
+  <item nodeId="node-0x1bcb390">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -318,110 +94,38 @@ Your flashlight sputters and dies. You shake it before you realize that it is re
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0xd4c0910" />
+      <child nodeId="node-0x1bc13b0" />
     </children>
   </item>
-  <item nodeId="node-0xd4c0910">
-    <command xml:space="preserve">x door</command>
-    <result xml:space="preserve">Which do you mean, the Queen&apos;s Door or the King&apos;s Door?
+  <item nodeId="node-0x1bc13b0">
+    <command xml:space="preserve">x walls</command>
+    <result xml:space="preserve">On the mural on the left is the Pharoah of Egypt, the crown of kingdom rests upon his head. He holds a flail and a crook in hand, symbols of his authority as the ruler of the kingdom. On the right wall is the Pharoah&apos;s bride, the Queen.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0xd4dcb80" />
+      <child nodeId="node-0xbcd9dc0" />
     </children>
   </item>
-  <item nodeId="node-0xd4dcb80">
-    <command xml:space="preserve">light lanterns with torch</command>
-    <result xml:space="preserve">You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.
+  <item nodeId="node-0xbcd9dc0">
+    <command xml:space="preserve">x queen</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0xd4293b0" />
+      <child nodeId="node-0x6c84fe0" />
     </children>
   </item>
-  <item nodeId="node-0xd4293b0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">(first opening the King&apos;s Door)
-
-Hall of the Sun
-This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should.
-
-You can see a King&apos;s Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0x843f4a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x843f4a0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
-
-You can see a King&apos;s Door and a Queen&apos;s Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0xbf97c70" />
-    </children>
-  </item>
-  <item nodeId="node-0xbf97c70">
-    <command xml:space="preserve">extinguish lanterns</command>
-    <result xml:space="preserve">You blow out both lanterns quickly. The moment the second one goes out the door slams shut.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0xd4de500" />
-    </children>
-  </item>
-  <item nodeId="node-0xd4de500">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">(first opening the King&apos;s Door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0xd454880" />
-    </children>
-  </item>
-  <item nodeId="node-0xd454880">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">(first opening the King&apos;s Door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0x72f89f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x72f89f0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">(first opening the Queen&apos;s Door)
-You touch the beautiful pictures that adorn the door before you hear a voice. 
+  <item nodeId="node-0x6c84fe0">
+    <command xml:space="preserve">x queen&apos;s door</command>
+    <result xml:space="preserve">You touch the beautiful pictures that adorn the door before you hear a voice. 
 
  &quot;You are not welcome here. Leave this place now!&quot; 
 
@@ -429,62 +133,26 @@ You are startled by the sudden noise as you look around for where the voice came
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0xbf90cf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xbf90cf0">
-    <command xml:space="preserve">talk to jackal</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="410">YES</temporary>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0x10d946d0" />
+      <child nodeId="node-0x6d17140" />
     </children>
   </item>
-  <item nodeId="node-0x10d946d0">
-    <command xml:space="preserve">x door</command>
-    <result xml:space="preserve">Which do you mean, the King&apos;s Door or the Queen&apos;s Door?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0x10364d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x10364d40">
-    <command xml:space="preserve">queen&apos;s door</command>
-    <result xml:space="preserve">A door with a picture of the Queen that is covered in Hieroglyphics.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="410">YES</temporary>
-    <children>
-      <child nodeId="node-0x103722a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x103722a0">
+  <item nodeId="node-0x6d17140">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">(first opening the King&apos;s Door)
 It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="410">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
     <children>
-      <child nodeId="node-0x1037bb80" />
+      <child nodeId="node-0x1bce9a0" />
     </children>
   </item>
-  <item nodeId="node-0x1037bb80">
+  <item nodeId="node-0x1bce9a0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the Queen&apos;s Door)
 
@@ -497,10 +165,2026 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="409">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd2640" />
+    </children>
   </item>
-  <item nodeId="node-0x18e3f20">
+  <item nodeId="node-0x1bd2640">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">You explain to the jackal why you&apos;re here, that you&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
+
+&quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…&quot; 
+
+The jackal turns and leaves the room and goes into the main hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd5080" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bd5080">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Hall of the moon
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bce8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bce8e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+
+You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d52710" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d52710">
+    <command xml:space="preserve">explain to jackal</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d5bec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d5bec0">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">You explain to the jackal why you&apos;re here, that you&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
+
+&quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…&quot; 
+
+The jackal turns and leaves the room and goes into the main hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d2bdd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d2bdd0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door, a King&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d1dec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d1dec0">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">Try asking about something instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127c2970" />
+    </children>
+  </item>
+  <item nodeId="node-0x127c2970">
+    <command xml:space="preserve">ask about tomb</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b729c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b729c0">
+    <command xml:space="preserve">ask jackal about tomb</command>
+    <result xml:space="preserve">&quot;This is the tomb of the greatest of the Kings and Queens of Egypt. This is also the resting place to the Eye of Horus, a powerful artifact.&quot; 
+ He glares at you. &quot;I do NOT take well to theives here.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b01a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b01a30">
+    <command xml:space="preserve">ask jackal about the tomb</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127be5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x127be5d0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd0150" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bd0150">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+
+You can see a Queen&apos;s Door and a Silver Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b00640" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b00640">
+    <command xml:space="preserve">door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cd12c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cd12c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Which do you mean, the Queen&apos;s Door or the Silver Door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb6fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb6fa0">
+    <command xml:space="preserve">silver</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bae6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bae6d0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the Queen&apos;s Door or the Silver Door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x12794750" />
+    </children>
+  </item>
+  <item nodeId="node-0x12794750">
+    <command xml:space="preserve">silver door</command>
+    <result xml:space="preserve">An ornate stone door with a mirror in the center. It looks like you could pry the mirror off if you tried to.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc161c30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc161c30">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen&apos;s chamber slowly opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b72d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b72d40">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the Silver Door)
+
+Queen&apos;s Chamber
+The Queen&apos;s resting place is covered in hundreds of various pictures, depicting the Queen in all of her splendor. Her sarcophagus lies in the center of the tomb, undisturbed. However, there is a shining amulet on the wall in the back.
+
+You can see a Silver Door and Queen&apos;s Amulet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127cc780" />
+    </children>
+  </item>
+  <item nodeId="node-0x127cc780">
+    <command xml:space="preserve">take amulet</command>
+    <result xml:space="preserve">&quot;It seems you were trustworthy after all.&quot; the jackal states as he walks into the chamber. &quot;If you weren&apos;t the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah&apos;s crown to open the Treasury.&quot; The Jackal moves back out the door where he came in
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bcf480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bcf480">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+
+You can see a Silver Door and a Queen&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127ce760" />
+    </children>
+  </item>
+  <item nodeId="node-0x127ce760">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door, a King&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc16a620" />
+    </children>
+  </item>
+  <item nodeId="node-0xc16a620">
+    <command xml:space="preserve">light lanterns with matches</command>
+    <result xml:space="preserve">You light the lanterns with your matches. The moment the second one is lit, the door clicks audiably.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d5ce80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d5ce80">
+    <command xml:space="preserve">light lanterns with torch</command>
+    <result xml:space="preserve">You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc1a5b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc1a5b60">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+
+Hall of the Sun
+This chamber is dedicated to the triumphs that the Pharoah went through in life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room.
+
+You can see a Golden Door, a King&apos;s Door, and Pedestal (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b04860" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b04860">
+    <command xml:space="preserve">x pedestal</command>
+    <result xml:space="preserve">A large pedestal with a circular frame. It looks like the mirror could fit here…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bcb250" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bcb250">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the Golden Door)
+
+King&apos;s chamber
+The King&apos;s chamber displays his grandeur and wealth, as well as his glory as the ruler of Egypt. The crown rests on a pedestal before you, shining like a glowing star.
+
+You can see a Golden Door and King&apos;s Crown here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b720b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b720b0">
+    <command xml:space="preserve">take crown</command>
+    <result xml:space="preserve">You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.
+
+But the quickly jackal rushes into the room, &quot;There are intruders in the tomb! Seal the King&apos;s chamber or else they will defile it!&quot; he shouts, he&apos;s clearly panicked. He tosses you a golden key. 
+
+ &quot;I have already locked the Queen&apos;s chamber. Hurry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d607e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d607e0">
+    <command xml:space="preserve">lock door</command>
+    <result xml:space="preserve">What do you want to lock the Golden Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd8af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bd8af0">
+    <command xml:space="preserve">crown</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1832840" />
+    </children>
+  </item>
+  <item nodeId="node-0x1832840">
+    <command xml:space="preserve">close the golden door</command>
+    <result xml:space="preserve">That&apos;s already closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc1b21d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc1b21d0">
+    <command xml:space="preserve">lock the door</command>
+    <result xml:space="preserve">What do you want to lock the Golden Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b07c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b07c70">
+    <command xml:space="preserve">crown</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127db430" />
+    </children>
+  </item>
+  <item nodeId="node-0x127db430">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">King&apos;s chamber
+The King&apos;s chamber displays his grandeur and wealth, as well as his glory as the ruler of Egypt. The crown rests on a pedestal before you, shining like a glowing star.
+
+You can see a Golden Key, a Large Black Jackal, and a Golden Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x12794de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12794de0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127eddf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x127eddf0">
+    <command xml:space="preserve">lock door</command>
+    <result xml:space="preserve">What do you want to lock the Golden Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x12792a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x12792a20">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You quickly lock the door with the key that was given to you. The jackal quickly nods, moving off to the side of the room. 
+
+ &quot;Pull this,&quot; he says as he indicates to hidden protrusion on the wall. It looks like an ancient lever. &quot;It will take you back to the Main Hall. Then we can deal with the intruders permanently.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127d45c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x127d45c0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">King&apos;s chamber
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x135abb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x135abb20">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You shake your head. There&apos;s no way you&apos;re going to win a fight against multiple people. You better stay out of it…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be7160" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be7160">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the Golden Door)
+You shake your head. There&apos;s no way you&apos;re going to win a fight against multiple people. You better stay out of it…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127c8c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x127c8c60">
+    <command xml:space="preserve">unso</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b03d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b03d10">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">King&apos;s chamber
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x144c3790" />
+    </children>
+  </item>
+  <item nodeId="node-0x144c3790">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">King&apos;s chamber
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc15b990" />
+    </children>
+  </item>
+  <item nodeId="node-0xc15b990">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the Golden Door)
+You shake your head. There&apos;s no way you&apos;re going to win a fight against multiple people. You better stay out of it…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b73ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b73ad0">
+    <command xml:space="preserve">enter hall of teh sun</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d0ee60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d0ee60">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127946c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x127946c0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the Golden Door)
+You shake your head. There&apos;s no way you&apos;re going to win a fight against multiple people. You better stay out of it…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x12763a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x12763a80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1275a310" />
+    </children>
+  </item>
+  <item nodeId="node-0x1275a310">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">Try asking about something instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1271ff00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1271ff00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf2480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf2480">
+    <command xml:space="preserve">talk jackal</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x6dd5d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6dd5d20">
+    <command xml:space="preserve">ask jackal about name</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1445b590" />
+    </children>
+  </item>
+  <item nodeId="node-0x1445b590">
+    <command xml:space="preserve">ask jackal about his name</command>
+    <result xml:space="preserve">The Jackal blinks in confusion. He clearly wasn&apos;t expecting you to say that. 
+ &quot;My name is Anubis, I am the guardian of this tomb.&quot; he says.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x144a9400" />
+    </children>
+  </item>
+  <item nodeId="node-0x144a9400">
+    <command xml:space="preserve">give jackal food</command>
+    <result xml:space="preserve">(first taking Dry Survival Food)
+The jackal looks at you. &quot;I live off of the energies of the temple. I don&apos;t need to eat anything.&quot; But something tells you that he appreciated the offer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc15f650" />
+    </children>
+  </item>
+  <item nodeId="node-0xc15f650">
+    <command xml:space="preserve">x Anubis</command>
+    <result xml:space="preserve">He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul. He&apos;s grown fond of you, strangely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1273ae90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1273ae90">
+    <command xml:space="preserve">lock door with key</command>
+    <result xml:space="preserve">You quickly lock the door with the key that was given to you. The jackal quickly nods, moving off to the side of the room. 
+
+ &quot;Pull this,&quot; he says as he indicates to hidden protrusion on the wall. It looks like an ancient lever. &quot;It will take you back to the Main Hall. Then we can deal with the intruders permanently.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0xc106630" />
+    </children>
+  </item>
+  <item nodeId="node-0xc106630">
+    <command xml:space="preserve">x rune</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x13531170" />
+    </children>
+  </item>
+  <item nodeId="node-0x13531170">
+    <command xml:space="preserve">press rune</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x1beb6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beb6c0">
+    <command xml:space="preserve">x rune</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x127c1b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x127c1b50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">King&apos;s chamber
+The King&apos;s chamber displays his grandeur and wealth, as well as his glory as the ruler of Egypt. The crown rests on a pedestal before you, shining like a glowing star.
+
+You can see a Large Black Jackal and a Golden Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ecbb70" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ecbb70">
+    <command xml:space="preserve">switch rune on</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1602">YES</temporary>
+    <children>
+      <child nodeId="node-0x13533560" />
+    </children>
+  </item>
+  <item nodeId="node-0x13533560">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you. 
+
+ The Jackal nods towards the entrance to the King&apos;s door. &quot;All that is left is to lock them in the room. There is not that many things of value in there, thankfully. I managed to take the mirror with me before I left.&quot;
+
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door and a King&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1601">YES</temporary>
+  </item>
+  <item nodeId="node-0x6da0b00">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0b70">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door and a King&apos;s Door here.
+
+Your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust.  
+It is now pitch dark in here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0c20">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0c80">
+    <command xml:space="preserve">king&apos;s door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0cf0">
+    <command xml:space="preserve">king&apos;s door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0de0">
+    <command xml:space="preserve">x king&apos;s door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0e30">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0e80">
+    <command xml:space="preserve">light torch with matches</command>
+    <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
+
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door and a King&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0ef0">
+    <command xml:space="preserve">x king&apos;s door</command>
+    <result xml:space="preserve">A large stone door with two oil lanterns.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0f60">
+    <command xml:space="preserve">x queen&apos;s door</command>
+    <result xml:space="preserve">You touch the beautiful pictures that adorn the door before you hear a voice. 
+
+ &quot;You are not welcome here. Leave this place now!&quot; 
+
+You are startled by the sudden noise as you look around for where the voice came from. When you turn back to the door, you realize that there is something inside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1090" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1090">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0d80">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the Queen&apos;s Door)
+
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+ &quot;I warned you to leave.&quot; the voice growls again. It is then that you realize that the voice is coming from the Jackal! 
+ &quot;Why are you still here?&quot; he asks menacingly, slowly getting closer to you. Maybe you should try talk to him…湩栠
+
+You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1100" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1100">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
+ &quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…&quot; The jackal turns and leaves the room and goes into the main hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1170">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen&apos;s chamber slowly opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da11e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da11e0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the Silver Door)
+
+Queen&apos;s Chamber
+The Queen&apos;s resting place is covered in hundreds of various pictures, depicting the Queen in all of her splendor. Her sarcophagus lies in the center of the tomb, undisturbed. However, there is a shining amulet on the wall in the back.
+
+You can see a Silver Door and Queen&apos;s Amulet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1250" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1250">
+    <command xml:space="preserve">take amulet</command>
+    <result xml:space="preserve">&quot;It seems you were trustworthy after all.&quot; the jackal states as he walks into the chamber. &quot;If you weren&apos;t the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah&apos;s crown to open the Treasury.&quot; The Jackal moves back out the door where he came in
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da12c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da12c0">
+    <command xml:space="preserve">drop mirror</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1330" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1330">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Queen&apos;s Chamber
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da0fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da0fd0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+
+You can see a Silver Door and a Queen&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1020" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1020">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1520" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1520">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door, a King&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1590" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1590">
+    <command xml:space="preserve">light lanterns with torch</command>
+    <result xml:space="preserve">You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1600" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1600">
+    <command xml:space="preserve">x king&apos;s door</command>
+    <result xml:space="preserve">A large stone door with two lit lanterns that are burning brightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1670" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1670">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+
+You can see a Queen&apos;s Door and a Silver Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da16e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da16e0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door, a King&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1750" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1750">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+
+Hall of the Sun
+This chamber is dedicated to the triumphs that the Pharoah went through in life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room.
+
+You can see a Golden Door, a King&apos;s Door, and Pedestal (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da17c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da17c0">
+    <command xml:space="preserve">x pedestal</command>
+    <result xml:space="preserve">A large pedestal with a circular frame. It looks like the mirror could fit here…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1830" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1830">
+    <command xml:space="preserve">put mirror in pedestal</command>
+    <result xml:space="preserve">You put the mirror into the pedestal and you are nearly blinded as the shining mirror is redirected into your eyes! Blinking away the bright spots in your visions as you step back an admire you handywork.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da18a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da18a0">
+    <command xml:space="preserve">rotate pedestal</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1910" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1910">
+    <command xml:space="preserve">x pedestal</command>
+    <result xml:space="preserve">A large pedestal with a circular frame.The mirror that you found is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1980" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1980">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da13a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da13a0">
+    <command xml:space="preserve">pedestal</command>
+    <result xml:space="preserve">You shake your head. There&apos;s no way you could lift that!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1410" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1410">
+    <command xml:space="preserve">rotate pedestal</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1480" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1480">
+    <command xml:space="preserve">turn pedestal</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1c30">
+    <command xml:space="preserve">move pedestal</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1ca0">
+    <command xml:space="preserve">rotate pedesta;</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="359">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1d10">
+    <command xml:space="preserve">rotate pedestal</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="358">YES</temporary>
+  </item>
+  <item nodeId="node-0x6da1d80">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Desert
+The sands of the desert irritates your eyes as you look around. The entire desert is silent, and the only thing you can hear are your own heat-beat and the sound of your own breathing. It&apos;s freezing cold right now since blazing desert sun has set beyond the horizon. The Pyramid that holds the legendary Eye of Horus is stands before you, glowing with an eerie light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1df0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Entrance
+The dark hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1e60">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1ed0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. There&apos;s not doubt about it, this is the Eye of Horus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1f40">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1fb0">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2020" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2020">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Treasury
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2090" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2090">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2100" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2100">
+    <command xml:space="preserve">southwest</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2170">
+    <command xml:space="preserve">norht</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da21e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da21e0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2250" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2250">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. There&apos;s not doubt about it, this is the Eye of Horus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da22c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da22c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Hall of the Pharoah
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2330" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2330">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+King&apos;s chamber
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da19f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da19f0">
+    <command xml:space="preserve">south east</command>
+    <result xml:space="preserve">I only understood you as far as wanting to south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1a60">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Hall of the Pharoah
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1ad0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+King&apos;s chamber
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x6da1b40">
+    <command xml:space="preserve">switch on flashlight</command>
+    <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
+
+Entrance
+The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
+
+You can see a Torch here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da1bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da1bb0">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da23a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da23a0">
+    <command xml:space="preserve">light torch with matches</command>
+    <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2410" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2410">
+    <command xml:space="preserve">extinguish torch</command>
+    <result xml:space="preserve">You extinguish your torch. You curse to yourself after you do so. Now you can&apos;t see anything!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2480" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2480">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Entrance
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da24f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da24f0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door and a King&apos;s Door here.
+
+Your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. Thankfully you lit the torch before you came in so you have some lighting.  
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2560" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2560">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the Queen&apos;s Door or the King&apos;s Door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da25d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da25d0">
+    <command xml:space="preserve">light lanterns with torch</command>
+    <result xml:space="preserve">You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2640" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2640">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+
+Hall of the Sun
+This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should.
+
+You can see a King&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da26b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da26b0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a King&apos;s Door and a Queen&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2720" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2720">
+    <command xml:space="preserve">extinguish lanterns</command>
+    <result xml:space="preserve">You blow out both lanterns quickly. The moment the second one goes out the door slams shut.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2790" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2790">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2800" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2800">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2870" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2870">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the Queen&apos;s Door)
+You touch the beautiful pictures that adorn the door before you hear a voice. 
+
+ &quot;You are not welcome here. Leave this place now!&quot; 
+
+You are startled by the sudden noise as you look around for where the voice came from. When you turn back to the door, you realize that there is something inside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da28e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da28e0">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2950" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2950">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the King&apos;s Door or the Queen&apos;s Door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da29c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da29c0">
+    <command xml:space="preserve">queen&apos;s door</command>
+    <result xml:space="preserve">A door with a picture of the Queen that is covered in Hieroglyphics.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2a30">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the King&apos;s Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2aa0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the Queen&apos;s Door)
+
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+ &quot;I warned you to leave.&quot; the voice growls again. It is then that you realize that the voice is coming from the Jackal! 
+ &quot;Why are you still here?&quot; he asks menacingly, slowly getting closer to you. Maybe you should try talk to him…‮桔牥⁥獩愠漠湲
+
+You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2b10">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
+ &quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…&quot; The jackal turns and leaves the room and goes into the main hall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2b80">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the Silver Door or the Queen&apos;s Door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2bf0">
+    <command xml:space="preserve">silver</command>
+    <result xml:space="preserve">An ornate stone door with a mirror in the center. It looks like you could pry the mirror off if you tried to.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2c60">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen&apos;s chamber slowly opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2cd0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the Silver Door)
+
+Queen&apos;s Chamber
+The Queen&apos;s resting place is covered in hundreds of various pictures, depicting the Queen in all of her splendor. Her sarcophagus lies in the center of the tomb, undisturbed. However, there is a shining amulet on the wall in the back.
+
+You can see a Silver Door and Queen&apos;s Amulet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2d40">
+    <command xml:space="preserve">x coffin</command>
+    <result xml:space="preserve">The Queen&apos;s gold and silver sarcophagus. Strange considering that usually the Queen never has one. The Pharoah must have gotten it for her.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2db0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">An ornate stone door with a mirror in the center. It looks like you could pry the mirror off if you tried to.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2e20">
+    <command xml:space="preserve">take amulte</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2e90">
+    <command xml:space="preserve">take amulet</command>
+    <result xml:space="preserve">&quot;It seems you were trustworthy after all.&quot; the jackal states as he walks into the chamber. &quot;If you weren&apos;t the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah&apos;s crown to open the Treasury.&quot; The Jackal moves back out the door where he came in
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2f00">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Hall of the moon
+The Hall is filled with adornments, praising the Queen entombed here. There is a ornate door to the north and the Main hall is to the west.
+
+You can see a Silver Door and a Queen&apos;s Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2f70">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Main hall
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
+
+You can see a Queen&apos;s Door, a King&apos;s Door, and a Large Black Jackal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da2fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da2fe0">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da3050" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da3050">
+    <command xml:space="preserve">talk to jackal</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da30c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da30c0">
+    <command xml:space="preserve">talk to anubis</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da3130" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da3130">
+    <command xml:space="preserve">ask jackal about his name</command>
+    <result xml:space="preserve">The Jackal blinks in confusion. He clearly wasn&apos;t expecting you to say that. 
+ &quot;My name is Anubis, I am the guardian of this tomb.&quot; he says.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da31a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da31a0">
+    <command xml:space="preserve">ask about thievees</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da3210" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da3210">
+    <command xml:space="preserve">ask about thieves</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da3280" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da3280">
+    <command xml:space="preserve">ask jackal about thieves</command>
+    <result xml:space="preserve">&quot;Unfortunately there have been many people attempting to make their way in. Most of the time the magic of the tomb keeps them out. But it let you in.&quot; he replies. &quot;I still don&apos;t trust you though.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da32f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da32f0">
+    <command xml:space="preserve">give jackal food</command>
+    <result xml:space="preserve">(first taking Dry Survival Food)
+The jackal looks at you. &quot;I live off of the energies of the temple. I don&apos;t need to eat anything.&quot; But something tells you that he appreciated the offer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="447">YES</temporary>
+  </item>
+  <item nodeId="node-0x6da3360">
     <command xml:space="preserve">x room</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -509,10 +2193,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e3f90" />
+      <child nodeId="node-0x6da33d0" />
     </children>
   </item>
-  <item nodeId="node-0x18e3f90">
+  <item nodeId="node-0x6da33d0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Survival Kit
@@ -525,10 +2209,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4000" />
+      <child nodeId="node-0x6da3440" />
     </children>
   </item>
-  <item nodeId="node-0x18e4000">
+  <item nodeId="node-0x6da3440">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -537,10 +2221,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e40b0" />
+      <child nodeId="node-0x6da34b0" />
     </children>
   </item>
-  <item nodeId="node-0x18e40b0">
+  <item nodeId="node-0x6da34b0">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -549,10 +2233,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4110" />
+      <child nodeId="node-0x6da3520" />
     </children>
   </item>
-  <item nodeId="node-0x18e4110">
+  <item nodeId="node-0x6da3520">
     <command xml:space="preserve">take matches</command>
     <result xml:space="preserve">Taken.
 
@@ -561,10 +2245,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4180" />
+      <child nodeId="node-0x6da3590" />
     </children>
   </item>
-  <item nodeId="node-0x18e4180">
+  <item nodeId="node-0x6da3590">
     <command xml:space="preserve">take food</command>
     <result xml:space="preserve">Taken.
 
@@ -573,10 +2257,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4270" />
+      <child nodeId="node-0x6da3600" />
     </children>
   </item>
-  <item nodeId="node-0x18e4270">
+  <item nodeId="node-0x6da3600">
     <command xml:space="preserve">x flashlight</command>
     <result xml:space="preserve">It is pitch dark, and you can&apos;t see a thing.
 
@@ -585,10 +2269,10 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e42c0" />
+      <child nodeId="node-0x6da3670" />
     </children>
   </item>
-  <item nodeId="node-0x18e42c0">
+  <item nodeId="node-0x6da3670">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -602,10 +2286,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4310" />
+      <child nodeId="node-0x6da36e0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4310">
+  <item nodeId="node-0x6da36e0">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
@@ -614,10 +2298,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4380" />
+      <child nodeId="node-0x6da3750" />
     </children>
   </item>
-  <item nodeId="node-0x18e4380">
+  <item nodeId="node-0x6da3750">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -626,10 +2310,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e43f0" />
+      <child nodeId="node-0x6da37c0" />
     </children>
   </item>
-  <item nodeId="node-0x18e43f0">
+  <item nodeId="node-0x6da37c0">
     <command xml:space="preserve">light torch</command>
     <result xml:space="preserve">This dangerous act would achieve little.
 
@@ -638,10 +2322,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4520" />
+      <child nodeId="node-0x6da3830" />
     </children>
   </item>
-  <item nodeId="node-0x18e4520">
+  <item nodeId="node-0x6da3830">
     <command xml:space="preserve">x torch</command>
     <result xml:space="preserve">A lit torch that burns brightly .
 
@@ -650,10 +2334,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4210" />
+      <child nodeId="node-0x6da38a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4210">
+  <item nodeId="node-0x6da38a0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Entrance
 The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
@@ -663,10 +2347,10 @@ The hallway is covered in dozens of various depictions of Ancient Egyptian art d
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4590" />
+      <child nodeId="node-0x6da3910" />
     </children>
   </item>
-  <item nodeId="node-0x18e4590">
+  <item nodeId="node-0x6da3910">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -675,10 +2359,10 @@ The hallway is covered in dozens of various depictions of Ancient Egyptian art d
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4600" />
+      <child nodeId="node-0x6da3980" />
     </children>
   </item>
-  <item nodeId="node-0x18e4600">
+  <item nodeId="node-0x6da3980">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -690,10 +2374,10 @@ Your flashlight sputters and dies. You shake it before you realize that it is re
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4670" />
+      <child nodeId="node-0x6da39f0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4670">
+  <item nodeId="node-0x6da39f0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Main hall
 The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.
@@ -703,10 +2387,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e46e0" />
+      <child nodeId="node-0x6da3a60" />
     </children>
   </item>
-  <item nodeId="node-0x18e46e0">
+  <item nodeId="node-0x6da3a60">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">You marvel at the ancient crypt when you suddenly hear a mysterious voice. 
 &quot;You are not welcome here. Leave this place now!&quot; 
@@ -717,10 +2401,10 @@ You are startled by the sudden noise as you look around for where the voice came
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4750" />
+      <child nodeId="node-0x6da3ad0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4750">
+  <item nodeId="node-0x6da3ad0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Hall of the Moon
@@ -733,10 +2417,10 @@ You can see a Silver Door, a Large Black Jackal, and Mirror here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e47c0" />
+      <child nodeId="node-0x6da3b40" />
     </children>
   </item>
-  <item nodeId="node-0x18e47c0">
+  <item nodeId="node-0x6da3b40">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen&apos;s chamber slowly opens.
 
@@ -745,23 +2429,23 @@ You can see a Silver Door, a Large Black Jackal, and Mirror here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4460" />
+      <child nodeId="node-0x6da3bb0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4460">
+  <item nodeId="node-0x6da3bb0">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
- &quot;It seems you aren&apos;t lying.&quot; he says. &quot;You may stay here…for now.攠灸湡⁤楴瑬⁳楨&quot; The jackal turns and leaves the room and goes into the main hall.
+ &quot;It seems you aren&apos;t lying.&quot; he says. &quot;You may stay here…for now.攠灸湡⁤楴瑬⁳楨⁳敨摡‮ 礠畯爧⁥敨敲‮潙❵敲猠畴正栠牥⁥敢慣獵⁥景愠猠湡獤潴浲愠&quot;&quot; The jackal turns and leaves the room and goes into the main hall.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x18e44b0" />
+      <child nodeId="node-0x6da3c20" />
     </children>
   </item>
-  <item nodeId="node-0x18e44b0">
+  <item nodeId="node-0x6da3c20">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">(first opening the Silver Door)
 
@@ -775,7 +2459,7 @@ You can see a Silver Door here.
     <changed>YES</changed>
     <temporary score="97">YES</temporary>
   </item>
-  <item nodeId="node-0x18e5210">
+  <item nodeId="node-0x6da3c90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Survival Kit
@@ -788,14 +2472,14 @@ You can see a Silver Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6b70" />
-      <child nodeId="node-0x18e5ec0" />
-      <child nodeId="node-0x18e57c0" />
-      <child nodeId="node-0x18e5280" />
-      <child nodeId="node-0xbf78250" />
+      <child nodeId="node-0x6da6af0" />
+      <child nodeId="node-0x6da5e40" />
+      <child nodeId="node-0x6da5510" />
+      <child nodeId="node-0x6da4fd0" />
+      <child nodeId="node-0x6da3d00" />
     </children>
   </item>
-  <item nodeId="node-0xbf78250">
+  <item nodeId="node-0x6da3d00">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -804,10 +2488,10 @@ You can see a Silver Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x84476f0" />
+      <child nodeId="node-0x6da3d70" />
     </children>
   </item>
-  <item nodeId="node-0x84476f0">
+  <item nodeId="node-0x6da3d70">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -821,10 +2505,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf7a700" />
+      <child nodeId="node-0x6da3de0" />
     </children>
   </item>
-  <item nodeId="node-0xbf7a700">
+  <item nodeId="node-0x6da3de0">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
@@ -833,10 +2517,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf3ef60" />
+      <child nodeId="node-0x6da3e50" />
     </children>
   </item>
-  <item nodeId="node-0xbf3ef60">
+  <item nodeId="node-0x6da3e50">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -852,10 +2536,10 @@ It is now pitch dark in here!
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf3b8c0" />
+      <child nodeId="node-0x6da3ec0" />
     </children>
   </item>
-  <item nodeId="node-0xbf3b8c0">
+  <item nodeId="node-0x6da3ec0">
     <command xml:space="preserve">light torches with match</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -864,10 +2548,10 @@ It is now pitch dark in here!
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xba89c20" />
+      <child nodeId="node-0x6da3f30" />
     </children>
   </item>
-  <item nodeId="node-0xba89c20">
+  <item nodeId="node-0x6da3f30">
     <command xml:space="preserve">light torch with match</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -881,10 +2565,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xba8dd10" />
+      <child nodeId="node-0x6da3fa0" />
     </children>
   </item>
-  <item nodeId="node-0xba8dd10">
+  <item nodeId="node-0x6da3fa0">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -893,10 +2577,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbaa0650" />
+      <child nodeId="node-0x6da4010" />
     </children>
   </item>
-  <item nodeId="node-0xbaa0650">
+  <item nodeId="node-0x6da4010">
     <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -905,10 +2589,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x84472c0" />
+      <child nodeId="node-0x6da4080" />
     </children>
   </item>
-  <item nodeId="node-0x84472c0">
+  <item nodeId="node-0x6da4080">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">A large stone door with two oil lanterns.
 
@@ -917,10 +2601,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbff0ef0" />
+      <child nodeId="node-0x6da40f0" />
     </children>
   </item>
-  <item nodeId="node-0xbff0ef0">
+  <item nodeId="node-0x6da40f0">
     <command xml:space="preserve">light lanterns with ltorch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -929,10 +2613,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf7a280" />
+      <child nodeId="node-0x6da4160" />
     </children>
   </item>
-  <item nodeId="node-0xbf7a280">
+  <item nodeId="node-0x6da4160">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. 
 &quot;You are not welcome here. Leave this place now!&quot; 
@@ -943,16 +2627,16 @@ You are startled by the sudden noise as you look around for where the voice came
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xd42c240" />
+      <child nodeId="node-0x6da41d0" />
     </children>
   </item>
-  <item nodeId="node-0xd42c240">
+  <item nodeId="node-0x6da41d0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Hall of the Moon
 The Hall is filled with adornments, praising the Queen entombed here. There is a ornate stone door to the north and the Main hall is to the west. 
  &quot;I warned you to leave.&quot; the voice growls again. It is then that you realize that the voice is coming from the Jackal! 
- &quot;Why are you still here?&quot; he asks menacingly, slowly getting closer to you. Maybe you should try talk to him…
+ &quot;Why are you still here?&quot; he asks menacingly, slowly getting closer to you. Maybe you should try talk to him…⁉慷湲摥礠畯琠⁯
 
 You can see a Silver Door and a Large Black Jackal here.
 
@@ -961,10 +2645,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf71e30" />
+      <child nodeId="node-0x6da4240" />
     </children>
   </item>
-  <item nodeId="node-0xbf71e30">
+  <item nodeId="node-0x6da4240">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
  &quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…&quot; The jackal turns and leaves the room and goes into the main hall.
@@ -974,10 +2658,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x8441b30" />
+      <child nodeId="node-0x6da42b0" />
     </children>
   </item>
-  <item nodeId="node-0x8441b30">
+  <item nodeId="node-0x6da42b0">
     <command xml:space="preserve">x mirror</command>
     <result xml:space="preserve">A large silver mirror that shines in the light of your torch.
 
@@ -986,10 +2670,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xba76890" />
+      <child nodeId="node-0x6da4320" />
     </children>
   </item>
-  <item nodeId="node-0xba76890">
+  <item nodeId="node-0x6da4320">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">An ornate stone door with a mirror in the center. It looks like you could pry the mirror off if you tried to.
 
@@ -998,10 +2682,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x8435410" />
+      <child nodeId="node-0x6da4390" />
     </children>
   </item>
-  <item nodeId="node-0x8435410">
+  <item nodeId="node-0x6da4390">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen&apos;s chamber slowly opens.
 
@@ -1010,10 +2694,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x847a9a0" />
+      <child nodeId="node-0x6da4400" />
     </children>
   </item>
-  <item nodeId="node-0x847a9a0">
+  <item nodeId="node-0x6da4400">
     <command xml:space="preserve">x mirror</command>
     <result xml:space="preserve">A large silver mirror that shines in the light of your torch.
 
@@ -1022,10 +2706,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf3f060" />
+      <child nodeId="node-0x6da4470" />
     </children>
   </item>
-  <item nodeId="node-0xbf3f060">
+  <item nodeId="node-0x6da4470">
     <command xml:space="preserve">nortgh</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1034,10 +2718,10 @@ You can see a Silver Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xd42a000" />
+      <child nodeId="node-0x6da44e0" />
     </children>
   </item>
-  <item nodeId="node-0xd42a000">
+  <item nodeId="node-0x6da44e0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">(first opening the Silver Door)
 
@@ -1051,10 +2735,10 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xcff5320" />
+      <child nodeId="node-0x6da4550" />
     </children>
   </item>
-  <item nodeId="node-0xcff5320">
+  <item nodeId="node-0x6da4550">
     <command xml:space="preserve">take amulet</command>
     <result xml:space="preserve">&quot;It seems you were trustworthy after all.&quot; the jackal states as he walks into the chamber. &quot;If you weren&apos;t the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah&apos;s crown to open the Treasury.&quot; The Jackal moves back out the door where he came in
 &gt;</result>
@@ -1062,10 +2746,10 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbfaf0f0" />
+      <child nodeId="node-0x6da45c0" />
     </children>
   </item>
-  <item nodeId="node-0xbfaf0f0">
+  <item nodeId="node-0x6da45c0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Hall of the Moon
@@ -1078,10 +2762,10 @@ You can see a Silver Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xba2e840" />
+      <child nodeId="node-0x6da4630" />
     </children>
   </item>
-  <item nodeId="node-0xba2e840">
+  <item nodeId="node-0x6da4630">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Main hall
@@ -1094,10 +2778,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x10395a40" />
+      <child nodeId="node-0x6da46a0" />
     </children>
   </item>
-  <item nodeId="node-0x10395a40">
+  <item nodeId="node-0x6da46a0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">A large stone door with two oil lanterns.
 
@@ -1106,10 +2790,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x721a2a0" />
+      <child nodeId="node-0x6da4710" />
     </children>
   </item>
-  <item nodeId="node-0x721a2a0">
+  <item nodeId="node-0x6da4710">
     <command xml:space="preserve">light lanterns with torch</command>
     <result xml:space="preserve">You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.
 
@@ -1118,10 +2802,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x84743c0" />
+      <child nodeId="node-0x6da4780" />
     </children>
   </item>
-  <item nodeId="node-0x84743c0">
+  <item nodeId="node-0x6da4780">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">(first opening the Stone Door)
 
@@ -1135,10 +2819,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x1b72870" />
+      <child nodeId="node-0x6da47f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b72870">
+  <item nodeId="node-0x6da47f0">
     <command xml:space="preserve">extinguish lanterns</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1147,10 +2831,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xd428030" />
+      <child nodeId="node-0x6da4860" />
     </children>
   </item>
-  <item nodeId="node-0xd428030">
+  <item nodeId="node-0x6da4860">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">A large stone door with two  two lit lanterns that are burning brightly.
 
@@ -1159,10 +2843,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf05da0" />
+      <child nodeId="node-0x6da48d0" />
     </children>
   </item>
-  <item nodeId="node-0xbf05da0">
+  <item nodeId="node-0x6da48d0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Hall of the Sun
 [Previous turn undone.]
@@ -1172,10 +2856,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x10384d70" />
+      <child nodeId="node-0x6da4940" />
     </children>
   </item>
-  <item nodeId="node-0x10384d70">
+  <item nodeId="node-0x6da4940">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Hall of the Sun
 This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should.
@@ -1187,10 +2871,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf68f50" />
+      <child nodeId="node-0x6da49b0" />
     </children>
   </item>
-  <item nodeId="node-0xbf68f50">
+  <item nodeId="node-0x6da49b0">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock the Stone Door with?
 
@@ -1199,10 +2883,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x103337a0" />
+      <child nodeId="node-0x6da4a20" />
     </children>
   </item>
-  <item nodeId="node-0x103337a0">
+  <item nodeId="node-0x6da4a20">
     <command xml:space="preserve">x lanterns</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1211,10 +2895,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf31400" />
+      <child nodeId="node-0x6da4a90" />
     </children>
   </item>
-  <item nodeId="node-0xbf31400">
+  <item nodeId="node-0x6da4a90">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1223,10 +2907,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x1037d230" />
+      <child nodeId="node-0x6da4b00" />
     </children>
   </item>
-  <item nodeId="node-0x1037d230">
+  <item nodeId="node-0x6da4b00">
     <command xml:space="preserve">light lanterns with torch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1235,10 +2919,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x845b4e0" />
+      <child nodeId="node-0x6da4b70" />
     </children>
   </item>
-  <item nodeId="node-0x845b4e0">
+  <item nodeId="node-0x6da4b70">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Hall of the Sun
 This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should.
@@ -1250,10 +2934,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf96160" />
+      <child nodeId="node-0x6da4be0" />
     </children>
   </item>
-  <item nodeId="node-0xbf96160">
+  <item nodeId="node-0x6da4be0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1262,10 +2946,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf72480" />
+      <child nodeId="node-0x6da4c50" />
     </children>
   </item>
-  <item nodeId="node-0xbf72480">
+  <item nodeId="node-0x6da4c50">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Main hall
@@ -1278,10 +2962,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xd4424c0" />
+      <child nodeId="node-0x6da4cc0" />
     </children>
   </item>
-  <item nodeId="node-0xd4424c0">
+  <item nodeId="node-0x6da4cc0">
     <command xml:space="preserve">extinguish lanterns</command>
     <result xml:space="preserve">You blow out both lanterns quickly. The moment the second one goes out the door slams shut.
 The lanterns are already unlit.
@@ -1291,10 +2975,10 @@ The lanterns are already unlit.
     <changed>YES</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x186d710" />
+      <child nodeId="node-0x6da4d30" />
     </children>
   </item>
-  <item nodeId="node-0x186d710">
+  <item nodeId="node-0x6da4d30">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Hall of the Sun
@@ -1307,10 +2991,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbfe6b70" />
+      <child nodeId="node-0x6da4da0" />
     </children>
   </item>
-  <item nodeId="node-0xbfe6b70">
+  <item nodeId="node-0x6da4da0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Main hall
@@ -1323,10 +3007,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbf71a50" />
+      <child nodeId="node-0x6da4e10" />
     </children>
   </item>
-  <item nodeId="node-0xbf71a50">
+  <item nodeId="node-0x6da4e10">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">A large stone door with two oil lanterns.
 
@@ -1335,10 +3019,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0x10d31910" />
+      <child nodeId="node-0x6da4e80" />
     </children>
   </item>
-  <item nodeId="node-0x10d31910">
+  <item nodeId="node-0x6da4e80">
     <command xml:space="preserve">extinguish lanterns</command>
     <result xml:space="preserve">The lanterns are already unlit.
 
@@ -1347,10 +3031,10 @@ You can see a Stone Door and a Large Black Jackal here.
     <changed>YES</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xbfb2fe0" />
+      <child nodeId="node-0x6da4ef0" />
     </children>
   </item>
-  <item nodeId="node-0xbfb2fe0">
+  <item nodeId="node-0x6da4ef0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Hall of the Sun
@@ -1363,10 +3047,10 @@ You can see a Stone Door here.
     <changed>NO</changed>
     <temporary score="242">YES</temporary>
     <children>
-      <child nodeId="node-0xd4690f0" />
+      <child nodeId="node-0x6da4f60" />
     </children>
   </item>
-  <item nodeId="node-0xd4690f0">
+  <item nodeId="node-0x6da4f60">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Main hall
 [Previous turn undone.]
@@ -1376,7 +3060,7 @@ You can see a Stone Door here.
     <changed>YES</changed>
     <temporary score="241">YES</temporary>
   </item>
-  <item nodeId="node-0x18e5280">
+  <item nodeId="node-0x6da4fd0">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -1390,10 +3074,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e52f0" />
+      <child nodeId="node-0x6da5040" />
     </children>
   </item>
-  <item nodeId="node-0x18e52f0">
+  <item nodeId="node-0x6da5040">
     <command xml:space="preserve">x entrance</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1402,10 +3086,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5360" />
+      <child nodeId="node-0x6da50b0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5360">
+  <item nodeId="node-0x6da50b0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Entrance
 The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
@@ -1417,10 +3101,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e53d0" />
+      <child nodeId="node-0x6da5120" />
     </children>
   </item>
-  <item nodeId="node-0x18e53d0">
+  <item nodeId="node-0x6da5120">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
@@ -1429,10 +3113,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5440" />
+      <child nodeId="node-0x6da5190" />
     </children>
   </item>
-  <item nodeId="node-0x18e5440">
+  <item nodeId="node-0x6da5190">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -1441,10 +3125,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e54b0" />
+      <child nodeId="node-0x6da5200" />
     </children>
   </item>
-  <item nodeId="node-0x18e54b0">
+  <item nodeId="node-0x6da5200">
     <command xml:space="preserve">switch flashlight off</command>
     <result xml:space="preserve">You switch the flashlight off.
 
@@ -1453,10 +3137,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5520" />
+      <child nodeId="node-0x6da5270" />
     </children>
   </item>
-  <item nodeId="node-0x18e5520">
+  <item nodeId="node-0x6da5270">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Entrance
 The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away.
@@ -1466,10 +3150,10 @@ The hallway is covered in dozens of various depictions of Ancient Egyptian art d
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5590" />
+      <child nodeId="node-0x6da52e0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5590">
+  <item nodeId="node-0x6da52e0">
     <command xml:space="preserve">switch flashlight on</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -1478,10 +3162,10 @@ The hallway is covered in dozens of various depictions of Ancient Egyptian art d
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5600" />
+      <child nodeId="node-0x6da5350" />
     </children>
   </item>
-  <item nodeId="node-0x18e5600">
+  <item nodeId="node-0x6da5350">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -1495,10 +3179,10 @@ That is before your flashlight sputters and dies. You shake it before you realiz
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5670" />
+      <child nodeId="node-0x6da53c0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5670">
+  <item nodeId="node-0x6da53c0">
     <command xml:space="preserve">x flashlight</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1507,10 +3191,10 @@ That is before your flashlight sputters and dies. You shake it before you realiz
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e56e0" />
+      <child nodeId="node-0x6da5430" />
     </children>
   </item>
-  <item nodeId="node-0x18e56e0">
+  <item nodeId="node-0x6da5430">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. 
 &quot;You are not welcome here. Leave this place now!&quot; 
@@ -1524,10 +3208,10 @@ That is before your flashlight sputters and dies. You shake it before you realiz
     <changed>NO</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5750" />
+      <child nodeId="node-0x6da54a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5750">
+  <item nodeId="node-0x6da54a0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Hall of the Queen
@@ -1537,7 +3221,7 @@ Hall of the Queen
     <changed>NO</changed>
     <temporary score="104">YES</temporary>
   </item>
-  <item nodeId="node-0x18e57c0">
+  <item nodeId="node-0x6da5510">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -1546,10 +3230,10 @@ Hall of the Queen
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4e80" />
+      <child nodeId="node-0x6da5580" />
     </children>
   </item>
-  <item nodeId="node-0x18e4e80">
+  <item nodeId="node-0x6da5580">
     <command xml:space="preserve">take matches</command>
     <result xml:space="preserve">Taken.
 
@@ -1558,10 +3242,10 @@ Hall of the Queen
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4ef0" />
+      <child nodeId="node-0x6da55f0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4ef0">
+  <item nodeId="node-0x6da55f0">
     <command xml:space="preserve">take dry food</command>
     <result xml:space="preserve">Taken.
 
@@ -1570,10 +3254,10 @@ Hall of the Queen
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4f60" />
+      <child nodeId="node-0x6da5660" />
     </children>
   </item>
-  <item nodeId="node-0x18e4f60">
+  <item nodeId="node-0x6da5660">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -1587,10 +3271,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e4fd0" />
+      <child nodeId="node-0x6da56d0" />
     </children>
   </item>
-  <item nodeId="node-0x18e4fd0">
+  <item nodeId="node-0x6da56d0">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
@@ -1599,10 +3283,10 @@ You can see a Torch here.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5040" />
+      <child nodeId="node-0x6da5740" />
     </children>
   </item>
-  <item nodeId="node-0x18e5040">
+  <item nodeId="node-0x6da5740">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -1616,10 +3300,10 @@ It is now pitch dark in here!
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5830" />
+      <child nodeId="node-0x6da57b0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5830">
+  <item nodeId="node-0x6da57b0">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -1631,10 +3315,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e58a0" />
+      <child nodeId="node-0x6da5820" />
     </children>
   </item>
-  <item nodeId="node-0x18e58a0">
+  <item nodeId="node-0x6da5820">
     <command xml:space="preserve">x jewel</command>
     <result xml:space="preserve">Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. 
 &quot;You are not welcome here. Leave this place now!&quot; 
@@ -1645,10 +3329,10 @@ You are startled by the sudden noise as you look around for where the voice came
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5910" />
+      <child nodeId="node-0x6da5890" />
     </children>
   </item>
-  <item nodeId="node-0x18e5910">
+  <item nodeId="node-0x6da5890">
     <command xml:space="preserve">x fountain</command>
     <result xml:space="preserve">A gold and silver fountain filled with sparkling water.
 
@@ -1659,10 +3343,10 @@ In Fountain is Water.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5980" />
+      <child nodeId="node-0x6da5900" />
     </children>
   </item>
-  <item nodeId="node-0x18e5980">
+  <item nodeId="node-0x6da5900">
     <command xml:space="preserve">take water</command>
     <result xml:space="preserve">You empty out your survival kit and fill it with the water.
 
@@ -1671,10 +3355,10 @@ In Fountain is Water.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e59f0" />
+      <child nodeId="node-0x6da5970" />
     </children>
   </item>
-  <item nodeId="node-0x18e59f0">
+  <item nodeId="node-0x6da5970">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Matches
@@ -1688,10 +3372,10 @@ In Fountain is Water.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5a60" />
+      <child nodeId="node-0x6da59e0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5a60">
+  <item nodeId="node-0x6da59e0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Hall of the Sun
@@ -1702,10 +3386,10 @@ This chamber is dedicated to the triumphs that the Pharoah went through in life.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5ad0" />
+      <child nodeId="node-0x6da5a50" />
     </children>
   </item>
-  <item nodeId="node-0x18e5ad0">
+  <item nodeId="node-0x6da5a50">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Main hall
@@ -1716,16 +3400,16 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5b40" />
+      <child nodeId="node-0x6da5ac0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5b40">
+  <item nodeId="node-0x6da5ac0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Hall of the Moon
 The Hall is filled with adornments, praising the Queen entombed here. There is a ornate stone door to the north and the Main hall is to the west. 
  &quot;I warned you to leave.&quot; the voice growls again. It is then that you realize that the voice is coming from the Jackal! 
- &quot;Why are you still here?&quot; he asks menacingly, slowly getting closer to you. Maybe you should try talk to him…h
+ &quot;Why are you still here?&quot; he asks menacingly, slowly getting closer to you. Maybe you should try talk to him…h慷湲摥礠畯琠⁯敬
 
 You can see a Silver Door, a Large Black Jackal, and a Silver Mirror here.
 
@@ -1734,23 +3418,23 @@ You can see a Silver Door, a Large Black Jackal, and a Silver Mirror here.
     <changed>YES</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5bb0" />
+      <child nodeId="node-0x6da5b30" />
     </children>
   </item>
-  <item nodeId="node-0x18e5bb0">
+  <item nodeId="node-0x6da5b30">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
- &quot;It seems you aren&apos;t lying.&quot; he says. &quot;You may stay here…for now.敹⁳&quot; The jackal turns and leaves the room and goes into the main hall.
+ &quot;It seems you aren&apos;t lying.&quot; he says. &quot;You may stay here…for now.敹⁳湡⁤楴瑬⁳楨慪正污眠票礠畯爧⁥敨敲‮潙❵敲猠畴正&quot; The jackal turns and leaves the room and goes into the main hall.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5c20" />
+      <child nodeId="node-0x6da5ba0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5c20">
+  <item nodeId="node-0x6da5ba0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">An ornate stone door with a mirror in the center. It looks like you could pry the mirror off if you tried...
 
@@ -1759,10 +3443,10 @@ You can see a Silver Door, a Large Black Jackal, and a Silver Mirror here.
     <changed>YES</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5c90" />
+      <child nodeId="node-0x6da5c10" />
     </children>
   </item>
-  <item nodeId="node-0x18e5c90">
+  <item nodeId="node-0x6da5c10">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen&apos;s chamber slowly opens.
 
@@ -1771,10 +3455,10 @@ You can see a Silver Door, a Large Black Jackal, and a Silver Mirror here.
     <changed>YES</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5d00" />
+      <child nodeId="node-0x6da5c80" />
     </children>
   </item>
-  <item nodeId="node-0x18e5d00">
+  <item nodeId="node-0x6da5c80">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">(first opening the Silver Door)
 
@@ -1788,10 +3472,10 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>YES</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5d70" />
+      <child nodeId="node-0x6da5cf0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5d70">
+  <item nodeId="node-0x6da5cf0">
     <command xml:space="preserve">take amulet</command>
     <result xml:space="preserve">Taken.
 
@@ -1800,10 +3484,10 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>YES</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5de0" />
+      <child nodeId="node-0x6da5d60" />
     </children>
   </item>
-  <item nodeId="node-0x18e5de0">
+  <item nodeId="node-0x6da5d60">
     <command xml:space="preserve">x coffin</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1812,10 +3496,10 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>YES</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5e50" />
+      <child nodeId="node-0x6da5dd0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5e50">
+  <item nodeId="node-0x6da5dd0">
     <command xml:space="preserve">open sarcophagus</command>
     <result xml:space="preserve">You shake your head. The dead deserve more respect than this. Besides, you&apos;re not nearly strong enough to open it anyway.
 
@@ -1824,7 +3508,7 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>YES</changed>
     <temporary score="163">YES</temporary>
   </item>
-  <item nodeId="node-0x18e5ec0">
+  <item nodeId="node-0x6da5e40">
     <command xml:space="preserve">x kit</command>
     <result xml:space="preserve">It is pitch dark, and you can&apos;t see a thing.
 
@@ -1833,10 +3517,10 @@ You can see a Silver Door and Queen&apos;s Amulet here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5f30" />
+      <child nodeId="node-0x6da5eb0" />
     </children>
   </item>
-  <item nodeId="node-0x18e5f30">
+  <item nodeId="node-0x6da5eb0">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -1850,10 +3534,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e5fa0" />
+      <child nodeId="node-0x6da5f20" />
     </children>
   </item>
-  <item nodeId="node-0x18e5fa0">
+  <item nodeId="node-0x6da5f20">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
@@ -1862,10 +3546,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6010" />
+      <child nodeId="node-0x6da5f90" />
     </children>
   </item>
-  <item nodeId="node-0x18e6010">
+  <item nodeId="node-0x6da5f90">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -1879,10 +3563,10 @@ It is now pitch dark in here!
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6080" />
+      <child nodeId="node-0x6da6000" />
     </children>
   </item>
-  <item nodeId="node-0x18e6080">
+  <item nodeId="node-0x6da6000">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -1894,10 +3578,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e60f0" />
+      <child nodeId="node-0x6da6070" />
     </children>
   </item>
-  <item nodeId="node-0x18e60f0">
+  <item nodeId="node-0x6da6070">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Torch (providing light)
@@ -1910,10 +3594,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6160" />
+      <child nodeId="node-0x6da60e0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6160">
+  <item nodeId="node-0x6da60e0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Main hall
 [Previous turn undone.]
@@ -1923,10 +3607,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e61d0" />
+      <child nodeId="node-0x6da6150" />
     </children>
   </item>
-  <item nodeId="node-0x18e61d0">
+  <item nodeId="node-0x6da6150">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Darkness
 [Previous turn undone.]
@@ -1936,10 +3620,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6240" />
+      <child nodeId="node-0x6da61c0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6240">
+  <item nodeId="node-0x6da61c0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Entrance
 [Previous turn undone.]
@@ -1949,10 +3633,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e62b0" />
+      <child nodeId="node-0x6da6230" />
     </children>
   </item>
-  <item nodeId="node-0x18e62b0">
+  <item nodeId="node-0x6da6230">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1961,10 +3645,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6320" />
+      <child nodeId="node-0x6da62a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6320">
+  <item nodeId="node-0x6da62a0">
     <command xml:space="preserve">nort</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1973,10 +3657,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6390" />
+      <child nodeId="node-0x6da6310" />
     </children>
   </item>
-  <item nodeId="node-0x18e6390">
+  <item nodeId="node-0x6da6310">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -1990,10 +3674,10 @@ It is now pitch dark in here!
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6400" />
+      <child nodeId="node-0x6da6380" />
     </children>
   </item>
-  <item nodeId="node-0x18e6400">
+  <item nodeId="node-0x6da6380">
     <command xml:space="preserve">light torch</command>
     <result xml:space="preserve">This dangerous act would achieve little.
 
@@ -2002,10 +3686,10 @@ It is now pitch dark in here!
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6470" />
+      <child nodeId="node-0x6da63f0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6470">
+  <item nodeId="node-0x6da63f0">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -2017,10 +3701,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e64e0" />
+      <child nodeId="node-0x6da6460" />
     </children>
   </item>
-  <item nodeId="node-0x18e64e0">
+  <item nodeId="node-0x6da6460">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. 
 &quot;You are not welcome here. Leave this place now!&quot; 
@@ -2031,10 +3715,10 @@ You are startled by the sudden noise as you look around for where the voice came
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6550" />
+      <child nodeId="node-0x6da64d0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6550">
+  <item nodeId="node-0x6da64d0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Hall of the Moon
@@ -2045,10 +3729,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e65c0" />
+      <child nodeId="node-0x6da6540" />
     </children>
   </item>
-  <item nodeId="node-0x18e65c0">
+  <item nodeId="node-0x6da6540">
     <command xml:space="preserve">x jackal</command>
     <result xml:space="preserve">He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul.
 
@@ -2057,10 +3741,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6630" />
+      <child nodeId="node-0x6da65b0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6630">
+  <item nodeId="node-0x6da65b0">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
  &quot;It seems you aren&apos;t lying.&quot; he says. You may stay here for now, but do not take anything. The jackal turns and leaves the room and goes into the main hall.
@@ -2070,10 +3754,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e66a0" />
+      <child nodeId="node-0x6da6620" />
     </children>
   </item>
-  <item nodeId="node-0x18e66a0">
+  <item nodeId="node-0x6da6620">
     <command xml:space="preserve">talk to jackal about name</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2082,10 +3766,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6710" />
+      <child nodeId="node-0x6da6690" />
     </children>
   </item>
-  <item nodeId="node-0x18e6710">
+  <item nodeId="node-0x6da6690">
     <command xml:space="preserve">talk to jackal about his name</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2094,10 +3778,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6780" />
+      <child nodeId="node-0x6da6700" />
     </children>
   </item>
-  <item nodeId="node-0x18e6780">
+  <item nodeId="node-0x6da6700">
     <command xml:space="preserve">ask jackal about his name</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2106,10 +3790,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e67f0" />
+      <child nodeId="node-0x6da6770" />
     </children>
   </item>
-  <item nodeId="node-0x18e67f0">
+  <item nodeId="node-0x6da6770">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2118,10 +3802,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6860" />
+      <child nodeId="node-0x6da67e0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6860">
+  <item nodeId="node-0x6da67e0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2130,10 +3814,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e68d0" />
+      <child nodeId="node-0x6da6850" />
     </children>
   </item>
-  <item nodeId="node-0x18e68d0">
+  <item nodeId="node-0x6da6850">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Main hall
@@ -2146,20 +3830,20 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6940" />
+      <child nodeId="node-0x6da68c0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6940">
+  <item nodeId="node-0x6da68c0">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e69b0" />
+      <child nodeId="node-0x6da6930" />
     </children>
   </item>
-  <item nodeId="node-0x18e69b0">
+  <item nodeId="node-0x6da6930">
     <command xml:space="preserve">ask jackal about his name</command>
     <result xml:space="preserve">The Jackal blinks in confusion. He clearly wasn&apos;t expecting you to say that. 
  &quot;My name is Anubis, I am the guardian of this tomb.&quot; he says.
@@ -2169,20 +3853,20 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6a20" />
+      <child nodeId="node-0x6da69a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6a20">
+  <item nodeId="node-0x6da69a0">
     <command xml:space="preserve">talk to anubis</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6a90" />
+      <child nodeId="node-0x6da6a10" />
     </children>
   </item>
-  <item nodeId="node-0x18e6a90">
+  <item nodeId="node-0x6da6a10">
     <command xml:space="preserve">talk to anubis about his name</command>
     <result xml:space="preserve">I only understood you as far as wanting to talk to Large Black Jackal.
 
@@ -2191,10 +3875,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="181">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6b00" />
+      <child nodeId="node-0x6da6a80" />
     </children>
   </item>
-  <item nodeId="node-0x18e6b00">
+  <item nodeId="node-0x6da6a80">
     <command xml:space="preserve">ask anubis about his name</command>
     <result xml:space="preserve">The Jackal blinks in confusion. He clearly wasn&apos;t expecting you to say that. 
  &quot;My name is Anubis, I am the guardian of this tomb.&quot; he says.
@@ -2204,7 +3888,7 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="180">YES</temporary>
   </item>
-  <item nodeId="node-0x18e6b70">
+  <item nodeId="node-0x6da6af0">
     <command xml:space="preserve">x food</command>
     <result xml:space="preserve">It is pitch dark, and you can&apos;t see a thing.
 
@@ -2213,10 +3897,10 @@ You can see Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6be0" />
+      <child nodeId="node-0x6da6b60" />
     </children>
   </item>
-  <item nodeId="node-0x18e6be0">
+  <item nodeId="node-0x6da6b60">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on, providing a small source of light for now. You better be careful, it doesn&apos;t look like you have much battery left.
 
@@ -2230,10 +3914,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6c50" />
+      <child nodeId="node-0x6da6bd0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6c50">
+  <item nodeId="node-0x6da6bd0">
     <command xml:space="preserve">take torch</command>
     <result xml:space="preserve">Taken.
 
@@ -2242,10 +3926,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6cc0" />
+      <child nodeId="node-0x6da6c40" />
     </children>
   </item>
-  <item nodeId="node-0x18e6cc0">
+  <item nodeId="node-0x6da6c40">
     <command xml:space="preserve">x torch</command>
     <result xml:space="preserve">A torch that smells like oil .
 
@@ -2254,10 +3938,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6d30" />
+      <child nodeId="node-0x6da6cb0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6d30">
+  <item nodeId="node-0x6da6cb0">
     <command xml:space="preserve">light torch with matches</command>
     <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
 
@@ -2266,10 +3950,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6da0" />
+      <child nodeId="node-0x6da6d20" />
     </children>
   </item>
-  <item nodeId="node-0x18e6da0">
+  <item nodeId="node-0x6da6d20">
     <command xml:space="preserve">switch off flashlight</command>
     <result xml:space="preserve">You switch the flashlight off.
 
@@ -2278,10 +3962,10 @@ You can see Torch here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6e10" />
+      <child nodeId="node-0x6da6d90" />
     </children>
   </item>
-  <item nodeId="node-0x18e6e10">
+  <item nodeId="node-0x6da6d90">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Main hall
@@ -2292,10 +3976,10 @@ The main hall is a wonderous location, the walls rich with dozens of hieroglyphs
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6e80" />
+      <child nodeId="node-0x6da6e00" />
     </children>
   </item>
-  <item nodeId="node-0x18e6e80">
+  <item nodeId="node-0x6da6e00">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. 
 &quot;You are not welcome here. Leave this place now!&quot; 
@@ -2306,10 +3990,10 @@ You are startled by the sudden noise as you look around for where the voice came
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6ef0" />
+      <child nodeId="node-0x6da6e70" />
     </children>
   </item>
-  <item nodeId="node-0x18e6ef0">
+  <item nodeId="node-0x6da6e70">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">On the mural on the left is the Pharoah of Egypt, the crown of kingdom rests upon his head. He holds a flail and a crook in hand, symbols of his authority as the ruler of the kingdom. On the right wall is the Pharoah&apos;s bride, the Queen. She did not hold as much power as the Pharoah, but she is still a very influential person.
 
@@ -2318,10 +4002,10 @@ You are startled by the sudden noise as you look around for where the voice came
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6f60" />
+      <child nodeId="node-0x6da6ee0" />
     </children>
   </item>
-  <item nodeId="node-0x18e6f60">
+  <item nodeId="node-0x6da6ee0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Hall of the Moon
@@ -2334,10 +4018,10 @@ You can see a Large Black Jackal here.
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e6fd0" />
+      <child nodeId="node-0x6da6f50" />
     </children>
   </item>
-  <item nodeId="node-0x18e6fd0">
+  <item nodeId="node-0x6da6f50">
     <command xml:space="preserve">x jackal</command>
     <result xml:space="preserve">He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul.
 
@@ -2346,10 +4030,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7040" />
+      <child nodeId="node-0x6da6fc0" />
     </children>
   </item>
-  <item nodeId="node-0x18e7040">
+  <item nodeId="node-0x6da6fc0">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">You explain to the jackal why you&apos;re here. You&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
  &quot;It seems you aren&apos;t lying.&quot; he says. &quot;You may stay here for now, but do not take anything.&quot; The jackal turns and leaves the room and goes into the main hall.
@@ -2359,10 +4043,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e70b0" />
+      <child nodeId="node-0x6da7030" />
     </children>
   </item>
-  <item nodeId="node-0x18e70b0">
+  <item nodeId="node-0x6da7030">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Main hall
@@ -2375,10 +4059,10 @@ You can see a Large Black Jackal here.
     <changed>YES</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7120" />
+      <child nodeId="node-0x6da70a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e7120">
+  <item nodeId="node-0x6da70a0">
     <command xml:space="preserve">x jackal</command>
     <result xml:space="preserve">He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul.
 
@@ -2387,20 +4071,20 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7190" />
+      <child nodeId="node-0x6da7110" />
     </children>
   </item>
-  <item nodeId="node-0x18e7190">
+  <item nodeId="node-0x6da7110">
     <command xml:space="preserve">talk to jackal</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7200" />
+      <child nodeId="node-0x6da7180" />
     </children>
   </item>
-  <item nodeId="node-0x18e7200">
+  <item nodeId="node-0x6da7180">
     <command xml:space="preserve">ask jackal about nae</command>
     <result xml:space="preserve">There is no reply.
 
@@ -2409,10 +4093,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7270" />
+      <child nodeId="node-0x6da71f0" />
     </children>
   </item>
-  <item nodeId="node-0x18e7270">
+  <item nodeId="node-0x6da71f0">
     <command xml:space="preserve">ask jackal about name</command>
     <result xml:space="preserve">There is no reply.
 
@@ -2421,10 +4105,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e72e0" />
+      <child nodeId="node-0x6da7260" />
     </children>
   </item>
-  <item nodeId="node-0x18e72e0">
+  <item nodeId="node-0x6da7260">
     <command xml:space="preserve">ask jackal about his name</command>
     <result xml:space="preserve">The Jackal blinks in confusion. He clearly wasn&apos;t expecting you to say that. 
  &quot;My name is Anubis, I am the guardian of this tomb.&quot; he says.
@@ -2434,10 +4118,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7350" />
+      <child nodeId="node-0x6da72d0" />
     </children>
   </item>
-  <item nodeId="node-0x18e7350">
+  <item nodeId="node-0x6da72d0">
     <command xml:space="preserve">ask jackal about the tomb</command>
     <result xml:space="preserve">&quot;This is the tomb of the greatest of the Kings and Queens of Egypt. This is also the resting place to the Eye of Horus, a powerful artifact.&quot; 
  He glares at you. &quot;I do NOT take well to theives here.&quot;
@@ -2447,10 +4131,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e73c0" />
+      <child nodeId="node-0x6da7340" />
     </children>
   </item>
-  <item nodeId="node-0x18e73c0">
+  <item nodeId="node-0x6da7340">
     <command xml:space="preserve">ask jackal about thieves</command>
     <result xml:space="preserve">&quot;Unfortunately there have been many people attempting to make their way in. Most of the time the magic of the tomb keeps them out. But it let you in.&quot; he replies. &quot;I still don&apos;t trust you though.&quot;
 
@@ -2459,10 +4143,10 @@ You can see a Large Black Jackal here.
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e7430" />
+      <child nodeId="node-0x6da73b0" />
     </children>
   </item>
-  <item nodeId="node-0x18e7430">
+  <item nodeId="node-0x6da73b0">
     <command xml:space="preserve">give food to jackal</command>
     <result xml:space="preserve">(first taking Dry Survival Food)
 The jackal glares at you. &quot;I&apos;m not eating that. I live off of the energies of the temple. I don&apos;t need to eat anything.&quot; But something tells you that he appreciated the offer.
@@ -2472,10 +4156,10 @@ The jackal glares at you. &quot;I&apos;m not eating that. I live off of the ener
     <changed>NO</changed>
     <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x18e74a0" />
+      <child nodeId="node-0x6da7420" />
     </children>
   </item>
-  <item nodeId="node-0x18e74a0">
+  <item nodeId="node-0x6da7420">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Main hall
 The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important.

@@ -34,7 +34,7 @@ Matches are a thing. Description is "A pack of survival matches. They can be lit
 Lighting it with is an action applying to two things.
 Understand "light [something] with [something]" as lighting it with. 
 
-A Torch is a thing in the Entrance. Description is "A[if torch is unlit] torch that smells like oil [otherwise if torch is lit] lit torch that burns brightly [end if]."
+A Torch is a thing in the Entrance. Description is "A[if torch is unlit] torch that smells like oil[otherwise if torch is lit] lit torch that burns brightly[end if]."
 
 Check lighting it with:
 	if noun is torch and second noun is matches:
@@ -43,7 +43,9 @@ Check lighting it with:
 	if noun is an animal:
 		say "Are you crazy?!";
 	if noun is not torch:
-		say "That's not flammable."
+		say "That's not flammable.";
+	if noun is lit: 
+		say "That's already lit."
 
 Instead of lighting lanterns with torch:
 	say "You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.";
@@ -88,12 +90,7 @@ An every turn rule:
 			say "Your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. [if torch is lit]Thankfully you lit the torch before you came in so you have some lighting. [end if] ";
 			now flashlight is unlit;
 			remove flashlight from play.
-		
-Instead of examining walls for the first time:
-	say "Your fingers touch the painted walls of the crypt when you suddenly hear a mysterious voice. [line break]'You are not welcome here. Leave this place now!' [line break]You are startled by the sudden noise as you look around for where the voice came from. You manage to see a shadowy figure enter the door on the east.";
-	move Large Jackal to Hall of the Moon;
-	now Queen's Door is unlocked.
-	
+			
 Instead of taking water:
 	say "You empty out your survival kit and fill it with the water.";
 	move food to player;
@@ -111,20 +108,86 @@ Instead of drinking water:
 
 [King's Door Coding]
 
-The King's Door is west of the Main Hall and east of the Hall of the Sun. The King's door is a lockable door. The King's door is locked. Description is "A large stone door with two [if lanterns are unlit]oil lanterns.[otherwise if lanterns are lit] two lit lanterns that are burning brightly."
+The King's Door is west of the Main Hall and east of the Hall of the Sun. The King's door is a lockable door. The King's door is locked. Description is "A large stone door with two [if lanterns are unlit]oil lanterns.[otherwise if lanterns are lit]lit lanterns that are burning brightly."
 
 Lanterns are scenery in the Main hall. Description is "A pair of [if lanterns are lit]burning[otherwise if lanterns are unlit]unlit[end if] lanterns."
 
 Instead of lighting lanterns with torch:
-	say "You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open."	
+	say "You light the lanterns with your torch. The moment the second one is lit, the door clicks audiably."	
+	
+Instead of lighting lanterns with matches:
+	say "You light the lanterns with your matches. The moment the second one is lit, the door clicks audiably."
 	
 [Hall of the Sun Coding]
 
-The Hall of the Sun is a room. It is west of the King's Door and south of the Pharoah's Chamber. Description is "This chamber is dedicated to the triumphs that the Pharoah went through in life. He ruled the people kindly but he kept them in line with his laws, as a king should."
+The Hall of the Sun is a room. It is west of the King's Door and south of the Golden Door. Description is "This chamber is dedicated to the triumphs that the Pharoah went through in life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room."
 
-Pedestal is scenery in the room. The pedestal is an open container. Description is "A large pedestal with a circular frame.[if player is carrying mirror] It looks like the mirror could fit here…[end if]"
+Pedestal is a thing in the Hall of the Sun. The pedestal is an open container. Description is "A large pedestal with a circular frame.[if player is carrying mirror] It looks like the mirror could fit here…[otherwise if the mirror is in the pedestal]The mirror that you found is fixed in place.[end if]"
 
-The King's Chamber is a room. It is north of the Hall of the Sun.
+Instead of taking pedestal:
+	say "You shake your head. There's no way you could lift that!"
+
+Golden door is north of the Hall of the Sun and south of the King's chamber. The Golden door is a lockable door. [The golden door is locked.] The Golden Key unlocks the Golden Door. Description is "A Golden door with a large picture of an eye in the center. There's a large glass jewel there where the iris would be, but it looks like you can't take it off like the mirror. [if door is locked]The jewel is dim, devoid of light.[otherwise if Door is unlocked]The jewel is brightly lit, the sunlight from the mirror sending reflections throughout the chamber."
+
+Rotating is an action applying to one thing.
+Understand "rotate" and "turn" as rotating.
+
+Rotation is a number variable. Rotation is 0.
+
+[Instead of inserting the mirror into pedestal:
+	say "You put the mirror into the pedestal and you are nearly blinded as the shining mirror is redirected into your eyes! Blinking away the bright spots in your visions as you step back an admire you handywork.";
+	move mirror to pedestal.]
+
+[Instead of rotating pedestal:
+	if rotation is 2:
+		say "You turn the pedestal 90 degrees clockwise to the east";
+		increase rotation by 1;
+	otherwise if rotation is 1:
+		if mirror is in the pedestal:
+			say "You turn the pedestal counterclockwise to face the golden door. The mirror's light shine into the jeweled eyes, causing it to glow red. The door slowly creaks open.";
+			now the golden door is unlocked;
+			now the golden door is open;
+		otherwise:
+			say "You turn the pedestal 90 degrees to the door.";
+			increase rotation by 1;
+	otherwise If rotation is 3:
+		say "You rotate the pedestal to its starting position.";
+		decrease rotation by 3;
+	otherwise if rotation is 0:
+		say "You turn the pedestal 90 degrees to the west.";
+		increase rotation by 1.]
+		
+
+[King's chamber coding]
+
+The King's Chamber is a room. It is north of the Golden Door. Description is "The King's chamber displays his grandeur and wealth, as well as his glory as the ruler of Egypt. The crown rests on a pedestal before you, shining like a glowing star."
+
+King's Sarcophagus is scenery in the King's chamber. Description is "The King's gold and silver sarcophagus. It is much more elaborate than the Queen's. It must be worth a fortune!" Understand "coffin" as sarcophagus.
+
+Instead of opening sarcophagus:
+	say "You shake your head. The dead deserve more respect than this. Besides, you're not nearly strong enough to open it anyway."
+
+King's Crown is a thing. It is in the King's Chamber. Description is "A Ruby and Alabaster crownthat represented the King's status in Egypt." 
+
+Instead of taking Crown:
+	say "You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.[line break][line break]But the quickly jackal rushes into the room, 'There are intruders in the tomb! Seal the King's chamber or else they will defile it!' he shouts, he's clearly panicked. He tosses you a golden key. [line break][line break] 'I have already locked the Queen's chamber. Hurry!'";
+	now the Golden Door is closed;
+	move Jackal to King's Chamber;
+	move Crown to Player;
+	move Intruders to Hall of the Sun;
+	move Golden key to King's chamber. 
+	
+[King's Chamber ESCAPE coding]
+
+Instead of locking door with golden key:
+	say "You quickly lock the door with the key that was given to you. The jackal quickly nods, moving off to the side of the room. [line break][line break] 'Pull this,' he says as he indicates to hidden protrusion on the wall. It looks like an ancient lever. 'It will take you back to the Main Hall. Then we can deal with the intruders permanently.'"
+
+Stone lever is scenery in the King's Chamber. Stone lever is fixed in place. Description is "A cleverly hid lever. Who knew the Egyptians were so advanced?"
+
+Instead of pulling lever:
+		say "The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you. [line break][line break] The Jackal nods towards the entrance to the King's door. 'All that is left is to lock them in the room. There is not that many things of value in there, thankfully. I managed to take the mirror with me before I left.'";
+		move player to Main Hall;
+		move Jackal to Main Hall.
 
 [Queen's Door coding]
 
@@ -141,7 +204,7 @@ The Hall of the Moon is a room. It is east of the Queen's Door and south of the 
 
 A Silver Mirror is scenery in the Hall of the Moon. Mirror is portable. Description is "A large silver mirror that shines in the light of your torch."
 
-Instead of taking Mirror:
+Instead of taking Mirror for the first time:
 	say "The mirror pops off of the door easily, as if it was meant to come off. You hear the sound of stones grinding as the door to the Queen's chamber slowly opens.";
 	now the silver door is unlocked;
 	move Mirror to player.
@@ -168,21 +231,34 @@ Instead of taking Amulet:
 Understand "talk to [something]" as talking. 
 Talking is an action applying to one thing.
 
+[theives coding]
+
+Intruders is a person. Understand "Thieves" as Intruders.
+
+Instead of opening Golden Door while Intruders are inside Hall of the Sun,
+	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+	
+Instead of entering the Hall of the Sun while Intruders are inside Hall of the Sun,
+	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+
 [Anubis Coding with WIP affection values (to gain good-good ending] 
 
 Affection is a number variable. Affection is 0.
 
-A Large Black Jackal is an animal. Understand "Anubis" as Jackal. Description is "He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul."
+A Large Black Jackal is an animal. Understand "Anubis" as Jackal. Description is "He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul.[if affection is 3] He's grown fond of you, strangely."
 
-After talking Jackal for the first time:
-	say "You explain to the jackal why you're here. You're stuck here because of a sandstorm and you can't get out. The jackal narrows his eyes and tilts his head. [line break] 'It seems you aren't lying.' he says. 'This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…' The jackal turns and leaves the room and goes into the main hall.";
+Instead of talking jackal:
+	say "Try asking about something instead."
+
+Instead of talking Jackal for the first time:
+	say "You explain to the jackal why you're here, that you're stuck here because of a sandstorm and you can't get out. The jackal narrows his eyes and tilts his head. [line break][line break]'It seems you aren't lying.' he says. 'This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…' [line break][line break]The jackal turns and leaves the room and goes into the main hall.";
 	move Jackal to Main hall.
 	
 After asking Jackal about "his name" for the first time:
 	say "The Jackal blinks in confusion. He clearly wasn't expecting you to say that. [line break] 'My name is Anubis, I am the guardian of this tomb.' he says.";
 	 increase Affection by 2.
 	
-After asking Jackal about "the tomb": 
+After asking Jackal about "tomb": 
 	say "'This is the tomb of the greatest of the Kings and Queens of Egypt. This is also the resting place to the Eye of Horus, a powerful artifact.' [line break] He glares at you. 'I do NOT take well to theives here.'"
 
 After asking jackal about "thieves":

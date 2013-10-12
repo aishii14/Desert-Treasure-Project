@@ -11,6 +11,24 @@ To say exit list:
 		let place be the room way from the location; 
 		if place is a room, say " [way]".
 		
+[theives coding]
+
+Intruders is a person. Understand "Thieves" as Intruders.
+
+Instead of opening Golden Door while Intruders are inside Hall of the Sun,
+	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+	
+Instead of entering the Hall of the Sun while Intruders are inside Hall of the Sun,
+	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+
+Instead of lighting lanterns with torch while Intruders are inside Hall of the Sun,
+	say "Are you crazy?! You're not going to let the thieves out!"
+
+[Conversation coding (Taken from a Day for Spelling)]
+
+Understand "talk to [something]" as talking. 
+Talking is an action applying to one thing.
+
 [Entryway Coding]
 
 The Entrance is a dark room. It is north of the Desert and south of the Main hall.  Description is "The hallway is covered in dozens of various depictions of Ancient Egyptian art depicing the life of the Pharoah and his Queen. It is slightly stuffy here, no doubt due the amount of time that this tomb has been sealed away."
@@ -66,11 +84,10 @@ Understand "extinguish [something]" as extinguishing.
 Extinguishing is an action applying to one thing.
 
 Instead of extinguishing lanterns:
-	if lanterns are lit:
-		say "You blow out both lanterns quickly. The moment the second one goes out the door slams shut.";
-		now lanterns is unlit;
-		now the King's door is closed;
-		now the King's door is locked.
+	say "You blow out both lanterns quickly. The moment the second one goes out the door slams shut.[if Intruders is inside Hall of the Sun] You hear a cry of alarm as the thieves realize that they're trapped in the room![end if]";
+	now lanterns is unlit;
+	now the King's door is closed;
+	now the King's door is locked.
 	
 Check extinguishing:
 	if noun is not torch:
@@ -82,7 +99,7 @@ Check extinguishing:
 
 [main hall coding]
 
-The Main Hall is a dark room. It is north of the Hallway, south of the Treasury, east of the King's Door and west of the Queen's Door. Description is "The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important."
+The Main Hall is a dark room. It is north of the Hallway, south of the Treasury, east of the King's Door and west of the Queen's Door. Description is "The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important. A foutain of glittering water lies in the center of the room."
 
 An every turn rule:
 	If flashlight is lit:
@@ -105,89 +122,6 @@ Water is a thing. It is in the fountain. Description is "Sparkling clean water. 
 
 Instead of drinking water:
 	say "You are sorely tempted to but it's probably several hundred years old. It's not sanitary at all."
-
-[King's Door Coding]
-
-The King's Door is west of the Main Hall and east of the Hall of the Sun. The King's door is a lockable door. The King's door is locked. Description is "A large stone door with two [if lanterns are unlit]oil lanterns.[otherwise if lanterns are lit]lit lanterns that are burning brightly."
-
-Lanterns are scenery in the Main hall. Description is "A pair of [if lanterns are lit]burning[otherwise if lanterns are unlit]unlit[end if] lanterns."
-
-Instead of lighting lanterns with torch:
-	say "You light the lanterns with your torch. The moment the second one is lit, the door clicks audiably."	
-	
-Instead of lighting lanterns with matches:
-	say "You light the lanterns with your matches. The moment the second one is lit, the door clicks audiably."
-	
-[Hall of the Sun Coding]
-
-The Hall of the Sun is a room. It is west of the King's Door and south of the Golden Door. Description is "This chamber is dedicated to the triumphs that the Pharoah went through in life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room."
-
-Pedestal is a thing in the Hall of the Sun. The pedestal is an open container. Description is "A large pedestal with a circular frame.[if player is carrying mirror] It looks like the mirror could fit here…[otherwise if the mirror is in the pedestal]The mirror that you found is fixed in place.[end if]"
-
-Instead of taking pedestal:
-	say "You shake your head. There's no way you could lift that!"
-
-Golden door is north of the Hall of the Sun and south of the King's chamber. The Golden door is a lockable door. [The golden door is locked.] The Golden Key unlocks the Golden Door. Description is "A Golden door with a large picture of an eye in the center. There's a large glass jewel there where the iris would be, but it looks like you can't take it off like the mirror. [if door is locked]The jewel is dim, devoid of light.[otherwise if Door is unlocked]The jewel is brightly lit, the sunlight from the mirror sending reflections throughout the chamber."
-
-Rotating is an action applying to one thing.
-Understand "rotate" and "turn" as rotating.
-
-Rotation is a number variable. Rotation is 0.
-
-[Instead of inserting the mirror into pedestal:
-	say "You put the mirror into the pedestal and you are nearly blinded as the shining mirror is redirected into your eyes! Blinking away the bright spots in your visions as you step back an admire you handywork.";
-	move mirror to pedestal.]
-
-[Instead of rotating pedestal:
-	if rotation is 2:
-		say "You turn the pedestal 90 degrees clockwise to the east";
-		increase rotation by 1;
-	otherwise if rotation is 1:
-		if mirror is in the pedestal:
-			say "You turn the pedestal counterclockwise to face the golden door. The mirror's light shine into the jeweled eyes, causing it to glow red. The door slowly creaks open.";
-			now the golden door is unlocked;
-			now the golden door is open;
-		otherwise:
-			say "You turn the pedestal 90 degrees to the door.";
-			increase rotation by 1;
-	otherwise If rotation is 3:
-		say "You rotate the pedestal to its starting position.";
-		decrease rotation by 3;
-	otherwise if rotation is 0:
-		say "You turn the pedestal 90 degrees to the west.";
-		increase rotation by 1.]
-		
-
-[King's chamber coding]
-
-The King's Chamber is a room. It is north of the Golden Door. Description is "The King's chamber displays his grandeur and wealth, as well as his glory as the ruler of Egypt. The crown rests on a pedestal before you, shining like a glowing star."
-
-King's Sarcophagus is scenery in the King's chamber. Description is "The King's gold and silver sarcophagus. It is much more elaborate than the Queen's. It must be worth a fortune!" Understand "coffin" as sarcophagus.
-
-Instead of opening sarcophagus:
-	say "You shake your head. The dead deserve more respect than this. Besides, you're not nearly strong enough to open it anyway."
-
-King's Crown is a thing. It is in the King's Chamber. Description is "A Ruby and Alabaster crownthat represented the King's status in Egypt." 
-
-Instead of taking Crown:
-	say "You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.[line break][line break]But the quickly jackal rushes into the room, 'There are intruders in the tomb! Seal the King's chamber or else they will defile it!' he shouts, he's clearly panicked. He tosses you a golden key. [line break][line break] 'I have already locked the Queen's chamber. Hurry!'";
-	now the Golden Door is closed;
-	move Jackal to King's Chamber;
-	move Crown to Player;
-	move Intruders to Hall of the Sun;
-	move Golden key to King's chamber. 
-	
-[King's Chamber ESCAPE coding]
-
-Instead of locking door with golden key:
-	say "You quickly lock the door with the key that was given to you. The jackal quickly nods, moving off to the side of the room. [line break][line break] 'Pull this,' he says as he indicates to hidden protrusion on the wall. It looks like an ancient lever. 'It will take you back to the Main Hall. Then we can deal with the intruders permanently.'"
-
-Stone lever is scenery in the King's Chamber. Stone lever is fixed in place. Description is "A cleverly hid lever. Who knew the Egyptians were so advanced?"
-
-Instead of pulling lever:
-		say "The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you. [line break][line break] The Jackal nods towards the entrance to the King's door. 'All that is left is to lock them in the room. There is not that many things of value in there, thankfully. I managed to take the mirror with me before I left.'";
-		move player to Main Hall;
-		move Jackal to Main Hall.
 
 [Queen's Door coding]
 
@@ -223,23 +157,107 @@ Instead of opening sarcophagus:
 Queen's Amulet is a thing. It is in the Queen's Chamber. Description is "A silver and sapphire amulet fashioned into a delicate feather." 
 
 Instead of taking Amulet:
-	say "'It seems you were trustworthy after all.' the jackal states as he walks into the chamber. 'If you weren't the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah's crown to open the Treasury.' The Jackal moves back out the door where he came in";
+	say "'It seems you were trustworthy after all.' the jackal states as he walks into the chamber. [line break][line break]'If you weren't the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah's crown to open the Treasury.' The Jackal moves back out the door where he came in";
 	move amulet to Player. 
 
-[Conversation coding (Taken from a Day for Spelling)]
+[King's Door Coding]
 
-Understand "talk to [something]" as talking. 
-Talking is an action applying to one thing.
+The King's Door is west of the Main Hall and east of the Hall of the Sun. The King's door is a lockable door. The King's door is locked. Description is "A large stone door with two [if lanterns are unlit]oil lanterns.[otherwise if lanterns are lit]lit lanterns that are burning brightly."
 
-[theives coding]
+Lanterns are scenery in the Main hall. Description is "A pair of [if lanterns are lit]burning[otherwise if lanterns are unlit]unlit[end if] lanterns."
 
-Intruders is a person. Understand "Thieves" as Intruders.
-
-Instead of opening Golden Door while Intruders are inside Hall of the Sun,
-	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+Instead of lighting lanterns with torch:
+	if lanterns is unlit:
+		say "You light the lanterns with your torch. The moment the second one is lit, the door clicks audiably.";
+		now King's door is unlocked;
+		now lanterns is lit;
+	if lanterns is lit: 
+		say "The door is already unlocked."
 	
-Instead of entering the Hall of the Sun while Intruders are inside Hall of the Sun,
-	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+Instead of lighting lanterns with matches:
+	if lanterns are unlit:
+		say "You light the lanterns with your matches. The moment the second one is lit, the door clicks audiably.";
+		now king's door is unlocked;
+		now lanterns is lit;
+	if lanterns is lit:
+		say "It's already unlocked."
+		
+[Hall of the Sun Coding]
+
+The Hall of the Sun is a room. It is west of the King's Door and south of the Golden Door. Description is "This chamber is dedicated to the triumphs that the Pharoah went through in life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room."
+
+Pedestal is scenery in the Hall of the Sun. The pedestal is an open container. Description is "A large pedestal with a circular frame.[if player is carrying mirror] It looks like the mirror could fit here…[otherwise if the mirror is in the pedestal]The mirror that you found is fixed in place.[end if]"
+
+Instead of taking pedestal:
+	say "You shake your head. There's no way you could lift that!"
+
+Golden door is north of the Hall of the Sun and south of the King's chamber. The Golden door is a lockable door. The golden door is locked. The Golden Key unlocks the Golden Door. Description is "A Golden door with a large picture of an eye in the center. There's a large glass jewel there where the iris would be, but it looks like you can't take it off like the mirror. [if door is locked]The jewel is dim, devoid of light.[otherwise if Door is unlocked]The jewel is brightly lit, the sunlight from the mirror sending reflections throughout the chamber."
+
+Instead of inserting the mirror into pedestal:
+	say "You put the mirror into the pedestal and you are nearly blinded as the shining mirror redirects the sunlight into you eyes. The moment you move out of the way, the beam of sunlight shines upon the jewel in the door's center. It shines red as the door slowly rumbles open.";
+	move mirror to pedestal;
+	now the golden door is open;
+	now the golden door is unlocked.
+
+[Original miror rotating coding taht would open the door, scrapped because it wouldn't work. 
+
+Rotation is a number variable. Rotation is 0.
+
+Adjusting is an action applying to one thing.
+Understand "rotate", "turn", and "adjust" as adjusting.
+
+Instead of adjusting pedestal:
+	if rotation is 2:
+		say "You turn the pedestal 90 degrees clockwise to the east";
+		increase rotation by 1;
+	otherwise if rotation is 1:
+		if mirror is in the pedestal:
+			say "You turn the pedestal counterclockwise to face the golden door. The mirror's light shine into the jeweled eyes, causing it to glow red. The door slowly creaks open.";
+			now the golden door is unlocked;
+			now the golden door is open;
+		otherwise:
+			say "You turn the pedestal 90 degrees to the door.";
+		increase rotation by 1;
+	otherwise if rotation is 3:
+		say "You rotate the pedestal to its starting position.";
+		decrease rotation by 3;
+	otherwise if rotation is 0:
+		say "You turn the pedestal 90 degrees to the west.";
+		increase rotation by 1.]
+
+[King's chamber coding]
+
+The King's Chamber is a room. It is north of the Golden Door. Description is "The King's chamber displays his grandeur and wealth, as well as his glory as the ruler of Egypt. The King's sarcophagus lies in the enter of the room, glittering in the light. [if player does not have the crown]The crown rests on a pedestal before you, shining like a glowing star.[end if]"
+
+King's Sarcophagus is scenery in the King's chamber. Description is "The King's gold and silver sarcophagus. It is much more elaborate than the Queen's. It must be worth a fortune!" Understand "coffin" as sarcophagus.
+
+Instead of opening sarcophagus:
+	say "You shake your head. The dead deserve more respect than this. Besides, you're not nearly strong enough to open it anyway."
+
+King's Crown is a thing. It is in the King's Chamber. Description is "A Ruby and Alabaster crownthat represented the King's status in Egypt." 
+
+Instead of taking Crown:
+	say "You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.[line break][line break]But the quickly jackal rushes into the room as it slams shute behind him, 'There are intruders in the tomb! Seal the King's chamber or else they will defile it!' he shouts, he's clearly panicked. He tosses you a golden key. [line break][line break] 'I have already locked the Queen's chamber. Hurry!'";
+	now the Golden Door is closed;
+	move Jackal to King's Chamber;
+	move Crown to Player;
+	move Intruders to Hall of the Sun;
+	move Golden key to King's chamber. 
+	
+[King's Chamber ESCAPE coding]
+
+Instead of locking door with golden key:
+	say "You quickly lock the door with the key that was given to you. The jackal quickly nods and takes the key back from you, moving off to the side of the room. [line break][line break] 'Pull this,' he says as he indicates to hidden protrusion on the wall. It looks like an ancient lever. 'It will take you back to the Main Hall. Then we can deal with the intruders permanently.'";
+	now the Golden door is locked;
+	remove Golden key from play. 
+
+Stone lever is scenery in the King's Chamber. Stone lever is fixed in place. Description is "A cleverly hid lever. Who knew the Egyptians were so advanced?"
+
+Instead of pulling lever:
+		say "The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you. [line break][line break] The Jackal nods towards the entrance to the King's door. 'All that is left is to lock them in the room. There is not that many things of value in there, thankfully. I managed to take the mirror with me before I left.'";
+		move player to Main Hall;
+		move Jackal to Main Hall.
+
 
 [Anubis Coding with WIP affection values (to gain good-good ending] 
 

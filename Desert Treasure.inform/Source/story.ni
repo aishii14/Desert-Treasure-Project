@@ -1,5 +1,10 @@
 "Desert Treasure" by Austin Ishii
 
+When play begins:
+	say "After hours of wandering through the desert, you find shelter from a sandstorm in a mysterious building. You have no idea where you are, but you are about to find out…"
+	
+The Description of the player is "You have a knapsack filled with various survival gear. You have explorer clothes that are well worn along with a pair of boots on your feet. You're geared up for desert travel, but the sand-storm caught you off guard."
+
 [taken from "Get that Cat"]
 Use the serial comma.
 When play begins: 
@@ -10,19 +15,8 @@ To say exit list:
 	repeat with way running through directions: 
 		let place be the room way from the location; 
 		if place is a room, say " [way]".
-		
-[theives coding]
-
-Intruders is a person. Understand "Thieves" as Intruders.
-
-Instead of opening Golden Door while Intruders are inside Hall of the Sun,
-	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
-	
-Instead of entering the Hall of the Sun while Intruders are inside Hall of the Sun,
-	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
-
-Instead of lighting lanterns with torch while Intruders are inside Hall of the Sun,
-	say "Are you crazy?! You're not going to let the thieves out!"
+			
+Use no scoring
 
 [Conversation coding (Taken from a Day for Spelling)]
 
@@ -61,10 +55,8 @@ Check lighting it with:
 	if noun is an animal:
 		say "Are you crazy?!";
 	if noun is not torch:
-		say "That's not flammable.";
-	if noun is lit: 
-		say "That's already lit."
-
+		say "That's not flammable.".
+	
 Instead of lighting lanterns with torch:
 	say "You light the lanterns with your torch. The moment the second one is lit, the door slowly creaks open.";
 	now lanterns are lit;
@@ -99,7 +91,7 @@ Check extinguishing:
 
 [main hall coding]
 
-The Main Hall is a dark room. It is north of the Hallway, south of the Treasury, east of the King's Door and west of the Queen's Door. Description is "The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important. A foutain of glittering water lies in the center of the room."
+The Main Hall is a dark room. It is north of the Hallway, south of the Ornate Door, east of the King's Door and west of the Queen's Door. Description is "The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. It is a large jewel with gold decorations. It looks very important. A foutain of glittering water lies in the center of the room."
 
 An every turn rule:
 	If flashlight is lit:
@@ -257,13 +249,87 @@ Instead of pulling lever:
 		say "The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you. [line break][line break] The Jackal nods towards the entrance to the King's door. 'All that is left is to lock them in the room. There is not that many things of value in there, thankfully. I managed to take the mirror with me before I left.'";
 		move player to Main Hall;
 		move Jackal to Main Hall.
+		
+[Treasury Door coding]
 
+Ornate Door is north of the Main Hall and south of the Treasury. It is a locked door. Description is "A very ornate door decorated with gold and silver hieroglyphs. The Queen and the King are on opposite sides of the door. There's a feather-shaped slot and a crown shaped slot in the center of the door."
 
+Slots is a scenery in the Main Hall. Slots are an open container. Description is "A pair of slots in the door. You probably need to fill both of them to open the door." Understand "slot" as slots.
+
+Instead of inserting the Amulet into slots:
+	say "The Amulet slides in with a gentle click as it glows.";
+	move Amulet to Slots. 
+	
+Instead of unlocking Ornate door with Amulet:
+	say "You should probably insert them into the slots."
+
+Instead of unlocking Ornate door with Crown:
+	say "You should probably insert them into the slots."
+
+Instead of inserting the Crown into slots:
+	say "The Crown slides in with a gentle click as it glows with power.";
+	move Crown to slots.
+
+An every turn rule:
+	If the Amulet is in the Slots and the Crown is in the slots for the first time:
+		say "The ornate door clicks as it glows with power before the locks fall away. [line break][line break]'Good' the Jackal says he he takes both artifacts. 'Now the treasury is open.'";
+		now Ornate Door is unlocked;
+		move crown to Jackal;
+		move amulet to Jackal.
+	
+Instead of opening ornate door:
+	if Intruders are in the Hall of the Sun:
+		say "The Jackal shakes his head, 'You should probably get rid of the intruders first.'";
+	otherwise:
+		say "You slowly open the door with apprehension on your face.";
+		now the ornate door is open;
+		move Jackal to Treasury.
+		
+[Treasury/Ending Coding]
+
+Treasury is a room. It is north of the Ornate Door. Description is "A room filled with various treasures. All of Egypt's wealth is here. In the center of the room is a bejeweled pedestal with a diamond set in gold, silver, and lapis-lazuli. It glows with a mysterious power.[if unvisited][line break][line break] 'Behold.' the Jackal states, 'The Eye of Horus, the greatest treasure in all of Egypt.'[end if]"
+
+Jeweled Stand is scenery in the Treasury. Jeweled Stand is a supporter. Description is "A ornate pedestal decorated in various precious metals and gems. The Eye of Horus rests on the top, hovering over the surface of the pedestal."
+
+Eye of Horus is a thing on the Jeweled Stand. Description is "A powerful artifact that pulses with power. It warms your skin like the sun."
+
+Instead of taking Eye of Horus:
+	if affection is 5:
+		say "You take hold of the Eye as you feel power rush through your body. It feels like your mind and soul are about to burst. Anubis cries out in alarm, concerned about your well-being. But the sensation fades and when you open your eyes, the Eye is gone! [line break] You look around desperately before you realize something is on your wrist, A gold, silver, and sapphire bracelet with an large diamond in the center. [line break][line break]'The Eye has chosen a new wielder.' Anubis says with reverence, 'I had suspected that there was something special about you, my lord.' he bows, 'My body and soul are yours to command.' Vitality wells through your body like a river, and you grin. 'Let's leave this place, Anubis,' you say as both you and your companion vanish from the tomb and into a new world.";
+		end the story;
+	otherwise if affection is 3:
+		say "The Eye glows in your hands as you feel power surge through your body. Taking command of it you banish the sandstorm outside the howl of the sandstorm that has filled your ears for so long finally vanish. [line break][line break]'Well done,' the Jackal comments, 'Your task is done and the storm has vanished. You may finally leave this place.' he nods at you before he walks into the shadows. 'Farewell, and may we meet again.' In a flash of light you find yourself out of the tomb and back in the desert. You flinch at the bright sunlight and when your eyes have adjusted you find yourself on the outskirts of Cairo. Glancing back at desert you frown. You feel something heavy in your pocket. You reach down and find a hefty amount of Gold and Silver along with a note: [line break][line break] Child of Man, may your life be filled with blessings.";
+		end the story;
+	if affection is 6:
+		say "You take hold of the Eye as you feel power rush through your body. It feels like your mind and soul are about to burst. Anubis cries out in alarm, concerned about your well-being. But the sensation fades and when you open your eyes, the Eye is gone! [line break] You look around desperately before you realize something is on your wrist, A gold, silver, and sapphire bracelet with an large diamond in the center. [line break][line break]'The Eye has chosen a new wielder.' Anubis says with reverence, 'I had suspected that there was something special about you, my lord.' he bows, 'My body and soul are yours to command.' Vitality wells through your body like a river, and you grin. 'Let's leave this place, Anubis,' you say as both you and your companion vanish from the tomb and into a new world.";
+		end the story.
+		
+[theives coding]
+
+Intruders is a person. Understand "Thieves" as Intruders.
+
+Instead of opening Golden Door while Intruders are inside Hall of the Sun,
+	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+	
+Instead of entering the Hall of the Sun while Intruders are inside Hall of the Sun,
+	say "You shake your head. There's no way you're going to win a fight against multiple people. You better stay out of it…"
+
+Instead of lighting lanterns with torch while Intruders are inside Hall of the Sun,
+	say "Are you crazy?! You're not going to let the thieves out!"
+	
+An every turn rule:
+If intruders are in the Hall of the Sun and King's Door is locked
+begin;
+	say "The Jackal nods, 'Good.' he says 'Stand back from the door,' he instructs. [line break][line break]After you do so, his eyes glows red. There's a bright flash of light that forces you to close your eyes. You hear the screams of the thieves before the voices are cut off. When you open your eyes nothing seems to have been changed. [line break][line break] 'The thives are gone now.' the Jackal smirked, 'Thank you for your assistance.' he says, smiling.";
+	remove intruders from play;
+	increase Affection by 3;
+end if.
+			
 [Anubis Coding with WIP affection values (to gain good-good ending] 
 
 Affection is a number variable. Affection is 0.
 
-A Large Black Jackal is an animal. Understand "Anubis" as Jackal. Description is "He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul.[if affection is 3] He's grown fond of you, strangely."
+A Large Black Jackal is an animal. Understand "Anubis" as Jackal. Description is "He is large black jackal with a golden collar around its neck. His crimson eyes stare into your soul.[if affection is greater than 1] He's grown fond of you, strangely."
 
 Instead of talking jackal:
 	say "Try asking about something instead."

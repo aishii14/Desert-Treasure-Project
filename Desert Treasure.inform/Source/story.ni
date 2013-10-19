@@ -1,9 +1,11 @@
 "Desert Treasure" by Austin Ishii
 
+Release along with Cover art.
+
 When play begins:
 	say "After hours of wandering through the desert, you find shelter from a sandstorm in a mysterious building. You have no idea where you are, but you are about to find out…[line break][line break]"
 	
-The Description of the player is "You have a knapsack filled with various survival gear. You have explorer clothes that are well worn along with a pair of boots on your feet. You're geared up for desert travel, but the sand-storm caught you off guard."
+The Description of the player is "You have a knapsack filled with various survival gear. You have explorer clothes that are well worn along with a pair of boots on your feet. You're geared up for desert travel, but the sand-storm caught you off guard.[if torch is lit] You're carrying a lit torch in your hand that's providing a source of light. [otherwise if flashlight is lit] You're carrying a flashlight for a source of lighting."
 
 [taken from "Get that Cat"]
 Use the serial comma.
@@ -126,7 +128,7 @@ Instead of examining pictures:
 An every turn rule:
 	If flashlight is lit:
 		if the player is in Main Hall:
-			say "Your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. [if torch is lit]Thankfully you lit the torch before you came in so you have some lighting. [end if] ";
+			say "Your flashlight sputters and dies. You shake it before you realize that it is really dead before throwing it away in disgust. [if torch is lit]Thankfully you lit the torch before you came in so you have some lighting. [end if][line break]";
 			now flashlight is unlit;
 			remove flashlight from play.
 			
@@ -181,7 +183,7 @@ Instead of opening sarcophagus:
 Queen's Amulet is a thing. It is in the Queen's Chamber. Description is "A silver and sapphire amulet fashioned into a delicate feather." 
 
 Instead of taking Amulet:
-	say "'It seems you were trustworthy after all.' the jackal states as he walks into the chamber. [line break][line break]'If you weren't the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah's crown to open the Treasury.' The Jackal moves back out the door where he came in";
+	say "'It seems you were trustworthy after all.' the jackal states as he walks into the chamber. [line break][line break]'If you weren't the amulet would have burned you to ash. But you still are alive and well. You will need to claim the Pharoah's crown to open the Treasury.' The Jackal moves back out the door where he came in.";
 	move amulet to Player. 
 
 [King's Door Coding]
@@ -274,7 +276,7 @@ Instead of opening sarcophagus:
 King's Crown is a thing. It is in the King's Chamber. Description is "A Ruby and Alabaster crownthat represented the King's status in Egypt." 
 
 Instead of taking Crown for the first time:
-	say "You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.[line break][line break]But the quickly jackal rushes into the room as it slams shute behind him, 'There are intruders in the tomb! Seal the King's chamber or else they will defile it!' he shouts, he's clearly panicked. He tosses you a golden key. [line break][line break] 'I have already locked the Queen's chamber. Hurry!'";
+	say "You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.[line break][line break]But the quickly jackal rushes into the room as it slams shute behind him, 'There are intruders in the tomb! Seal the King's chamber or else they will defile it!' he shouts, he's clearly panicked. He tosses you a golden key that you quickly catchpu. [line break][line break] 'I have already locked the Queen's chamber. Hurry!'";
 	now the Golden Door is closed;
 	move Jackal to King's Chamber;
 	move Crown to Player;
@@ -282,7 +284,7 @@ Instead of taking Crown for the first time:
 	move Golden key to player. 
 	
 Instead of wearing crown:
-	say "You try to but it's just too big."
+	say "You're tempted too, but you don't think it will fit. It's too big for you."
 	
 [King's Chamber ESCAPE coding]
 
@@ -397,12 +399,15 @@ Instead of talking jackal:
 	say "Try asking about something instead."
 
 Instead of talking Jackal for the first time:
-	say "You explain to the jackal why you're here, that you're stuck here because of a sandstorm and you can't get out. The jackal narrows his eyes and tilts his head. [line break][line break]'It seems you aren't lying.' he says. 'This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…' [line break][line break]The jackal turns and leaves the room and goes into the main hall. You still have some questions though!";
+	say "You explain to the jackal why you're here, that you're stuck here because of a sandstorm and you can't get out. The jackal narrows his eyes and tilts his head. [line break][line break]'It seems you aren't lying.' he says. 'This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…' [line break][line break]The jackal turns and leaves the room and goes into the main hall. You still have some questions though! Although a random thought passes through your head, does he have a name? It would be tedious calling him the Jackal all the time…";
 	move Jackal to Main hall.
 	
 After asking Jackal about "his name" for the first time:
 	say "The Jackal blinks in confusion. He clearly wasn't expecting you to say that. [line break][line break]'My name is Anubis, I am the guardian of this tomb. It is a pleasure to meet you.' he says.";
 	 increase Affection by 2.
+	
+Instead of asking Jackal about "name":
+	say "You should probably be more specific than that."
 	
 After asking Jackal about "tomb": 
 	say "'This is the tomb of the greatest of the Kings and Queens of Egypt. This is also the resting place to the Eye of Horus, a powerful artifact,' the Jackal says.[line break][line break]He glares at you. 'I do NOT take well to thieves here.'"

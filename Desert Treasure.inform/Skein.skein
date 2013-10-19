@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1896c50" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xbd8dd20" />
+  <activeNode nodeId="node-0x14057a00" />
   <item nodeId="node-0x1896c50">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -21,7 +21,7 @@ It is pitch dark, and you can&apos;t see a thing.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">NO</temporary>
+    <temporary score="451">NO</temporary>
     <children>
       <child nodeId="node-0x6fb52f0" />
       <child nodeId="node-0x6fb4d40" />
@@ -1198,7 +1198,7 @@ You can see a Stone Door, Brass Key, and a Torch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0x6da9fd0" />
     </children>
@@ -1210,7 +1210,7 @@ You can see a Stone Door, Brass Key, and a Torch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef75280" />
     </children>
@@ -1222,7 +1222,7 @@ You can see a Stone Door, Brass Key, and a Torch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0x1b8ae00" />
     </children>
@@ -1234,7 +1234,7 @@ You can see a Stone Door, Brass Key, and a Torch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef202b0" />
     </children>
@@ -1244,7 +1244,7 @@ You can see a Stone Door, Brass Key, and a Torch here.
     <result xml:space="preserve">(first opening the Stone Door)
 You finally manage to open the door. Now let&apos;s see where you ended up at…
 Main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. A fountain of glittering water lies in the center of the room. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
 
 You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, and a Stone Door here.
 
@@ -1255,24 +1255,24 @@ It is now pitch dark in here!
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbd8f630" />
     </children>
   </item>
   <item nodeId="node-0xbd8f630">
     <command xml:space="preserve">light torch with matches</command>
-    <result xml:space="preserve">You manage to light the torches with the match. It burns brightly in your grip, illuminating everything around you.
+    <result xml:space="preserve">You manage to light the torches with the match. The torch now burns brightly in your grip, illuminating everything around you.
 
 Main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. A fountain of glittering water lies in the center of the room. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
 
 You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, and a Stone Door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0x70cedf0" />
     </children>
@@ -1284,7 +1284,7 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, and a Stone
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xf0aee60" />
     </children>
@@ -1296,12 +1296,12 @@ You touch the beautiful pictures that adorn the door before you hear a voice.
 
  &quot;You are not welcome here. Leave this place now!&quot; 
 
-You are startled by the sudden noise as you look around for where the voice came from. When you turn back to the door, you realize that there is something inside.
+You are startled by the sudden voice as you look around for where it came from. When you turn back to the door, you realize that it is slightly open, as if something slipped inside.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef34660" />
     </children>
@@ -1311,7 +1311,7 @@ You are startled by the sudden noise as you look around for where the voice came
     <result xml:space="preserve">(first opening the Queen&apos;s Door)
 
 Hall of the moon
-The Hall dedicated to the Queen as well, depicting her in her splendor. There is a Ornate door to the north and the Main hall is to the west.
+The Hall dedicated to the Queen as well, depicting her in her splendor. There is a Silver door to the north and the Main hall is to the west.
 
  &quot;I warned you to leave.&quot; the voice growls again. It is then that you realize that the voice is coming from the Jackal! 
 
@@ -1322,22 +1322,22 @@ You can see a Silver Door, a Queen&apos;s Door, and a Large Black Jackal here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef23d30" />
     </children>
   </item>
   <item nodeId="node-0xef23d30">
     <command xml:space="preserve">talk to jackal</command>
-    <result xml:space="preserve">You explain to the jackal why you&apos;re here, that you&apos;re stuck here because of a sandstorm and you can&apos;t get out. The jackal narrows his eyes and tilts his head. 
+    <result xml:space="preserve">You explain to the jackal why you&apos;re here, that you&apos;re stuck here because of a sandstorm. The jackal narrows his eyes and tilts his head. 
 
-&quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm, if you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you…&quot; 
+&quot;It seems you aren&apos;t lying.&quot; he says. &quot;This tomb is protected by that sandstorm. If you want to leave you will need to open the Treasury and claim the Eye of Horus. I will be watching you, child of Man.&quot; 
 
-The jackal turns and leaves the room and goes into the main hall. You still have some questions though! Although a random thought passes through your head, does he have a name? It would be tedious calling him the Jackal all the time…
+The jackal turns and leaves the room and goes into the Main Hall. You still have some questions though! Although a random thought passes through your head, does he have a name? It would be tedious calling him the Jackal all the time…
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xf07ed90" />
     </children>
@@ -1350,7 +1350,7 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbd5aaa0" />
     </children>
@@ -1362,15 +1362,14 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0x1ba7d80" />
     </children>
   </item>
   <item nodeId="node-0x1ba7d80">
     <command xml:space="preserve">north</command>
-    <result xml:space="preserve">(first opening the Silver Door)
-
+    <result xml:space="preserve">
 Queen&apos;s Chamber
 The Queen&apos;s resting place is covered in hundreds of various pictures, depicting the Queen in all of her splendor. Her sarcophagus lies in the center of the tomb, undisturbed. There is a shining amulet on the wall in the back.
 
@@ -1379,7 +1378,7 @@ You can see a Silver Door and Queen&apos;s Amulet here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbdd21d0" />
     </children>
@@ -1393,7 +1392,7 @@ You can see a Silver Door and Queen&apos;s Amulet here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef702d0" />
     </children>
@@ -1408,7 +1407,7 @@ You can see a Silver Door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xf075580" />
     </children>
@@ -1417,14 +1416,14 @@ You can see a Silver Door here.
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Hall of the moon
-The Hall dedicated to the Queen as well, depicting her in her splendor. There is a Ornate door to the north and the Main hall is to the west.
+The Hall dedicated to the Queen as well, depicting her in her splendor. There is a Silver door to the north and the Main hall is to the west.
 
 You can see a Silver Door and a Queen&apos;s Door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef2fa60" />
     </children>
@@ -1433,14 +1432,14 @@ You can see a Silver Door and a Queen&apos;s Door here.
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. A fountain of glittering water lies in the center of the room. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
 
 You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, a Stone Door, and a Large Black Jackal here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbd9ea80" />
     </children>
@@ -1452,7 +1451,7 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, a Stone Doo
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef74730" />
     </children>
@@ -1461,12 +1460,12 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, a Stone Doo
     <command xml:space="preserve">ask jackal about his name</command>
     <result xml:space="preserve">The Jackal blinks in confusion. He clearly wasn&apos;t expecting you to say that. 
 
-&quot;My name is Anubis, I am the guardian of this tomb. It is a pleasure to meet you.&quot; he says.
+&quot;My name is Anubis, I am the guardian of this tomb. It is a pleasure to meet you.&quot; he says. His demeanor has lightened up slightly.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef71d20" />
     </children>
@@ -1478,7 +1477,7 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, a Stone Doo
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef4db80" />
     </children>
@@ -1490,19 +1489,19 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, a Stone Doo
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef66260" />
     </children>
   </item>
   <item nodeId="node-0xef66260">
     <command xml:space="preserve">light lanterns with matches</command>
-    <result xml:space="preserve">It&apos;s already unlocked.
+    <result xml:space="preserve">The door is already open.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef6fc70" />
     </children>
@@ -1510,26 +1509,26 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, a Stone Doo
   <item nodeId="node-0xef6fc70">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">Hall of the Sun
-This chamber is dedicated to the triumphs that the Pharoah went through in life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room. There is a golden door to the north. 
+This chamber is dedicated to the triumphs of the Pharoah&apos;s life. Sunlight shines from a opening in the ceiling onto a pedestal in the center of the room. There is a golden door to the north. 
 
 You can see a Golden Door and a King&apos;s Door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0x1b10310" />
     </children>
   </item>
   <item nodeId="node-0x1b10310">
     <command xml:space="preserve">put mirror in pedestal</command>
-    <result xml:space="preserve">You put the mirror into the pedestal and you are nearly blinded as the shining mirror redirects the sunlight into you eyes. The moment you move out of the way, the beam of sunlight shines upon the jewel in the door&apos;s center. It shines red as the door slowly rumbles open.
+    <result xml:space="preserve">You put the mirror into the pedestal and you are nearly blinded as the shining mirror redirects the sunlight into your eyes. The moment you move out of the way, the beam of sunlight shines upon the jewel in the door&apos;s center. The jewel glows red briefly before the door slowly opens.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefb0230" />
     </children>
@@ -1545,23 +1544,23 @@ You can see a Golden Door and King&apos;s Crown here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefe35b0" />
     </children>
   </item>
   <item nodeId="node-0xefe35b0">
     <command xml:space="preserve">take crown</command>
-    <result xml:space="preserve">You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. But it looks like you have all the things you need to open the treasury.
+    <result xml:space="preserve">You take the crown from the pedestal and you feel its weight in your hands. It feels strange to hold such a precious treasure. 
 
-But the quickly jackal rushes into the room as it slams shute behind him, &quot;There are intruders in the tomb! Seal the King&apos;s chamber or else they will defile it!&quot; he shouts, he&apos;s clearly panicked. He tosses you a golden key that you quickly catchpu. 
+Suddenly, the jackal rushes into the room as the door slams shut behind him, &quot;There are intruders in the tomb! Seal the King&apos;s chamber or else they will defile it!&quot; he shouts, he&apos;s clearly panicked. He tosses you a golden key that you quickly catch. 
 
  &quot;I have already locked the Queen&apos;s chamber. Hurry!&quot;
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="154">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef82800" />
     </children>
@@ -1573,7 +1572,7 @@ But the quickly jackal rushes into the room as it slams shute behind him, &quot;
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbdc5930" />
     </children>
@@ -1585,19 +1584,19 @@ But the quickly jackal rushes into the room as it slams shute behind him, &quot;
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefe61d0" />
     </children>
   </item>
   <item nodeId="node-0xefe61d0">
     <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">You have a knapsack filled with various survival gear. You have explorer clothes that are well worn along with a pair of boots on your feet. You&apos;re geared up for desert travel, but the sand-storm caught you off guard. You&apos;re carrying a lit torch in your hand that&apos;s providing a source of light. 
+    <result xml:space="preserve">You have a knapsack filled with various survival gear. Your outfit consists of explorer clothes that are well worn with a pair of boots on your feet. You&apos;re geared up for desert travel, but the sand-storm caught you off guard. You&apos;re carrying a lit torch in your hand that&apos;s providing a source of light. 
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefdd950" />
     </children>
@@ -1609,7 +1608,7 @@ But the quickly jackal rushes into the room as it slams shute behind him, &quot;
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef675e0" />
     </children>
@@ -1621,41 +1620,40 @@ But the quickly jackal rushes into the room as it slams shute behind him, &quot;
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef793c0" />
     </children>
   </item>
   <item nodeId="node-0xef793c0">
     <command xml:space="preserve">golden key</command>
-    <result xml:space="preserve">You quickly lock the door with the key that was given to you. The jackal quickly nods and takes the key back from you, moving off to the side of the room. 
+    <result xml:space="preserve">You quickly lock the door with the key that was given to you. The jackal quickly nods as he takes the key back from you, moving off to the side of the room. 
 
- &quot;Pull this,&quot; he says as he indicates to hidden protrusion on the wall. It looks like an ancient lever. &quot;It will take you back to the Main Hall. Then we can deal with the intruders permanently.&quot;
+ &quot;Pull this,&quot; he says as he indicates to hidden protrusion on the wall. It looks like some sort of lever. &quot;It will take you back to the Main Hall. Then we can deal with the intruders permanently.&quot;
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefc2720" />
     </children>
   </item>
   <item nodeId="node-0xefc2720">
     <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you. 
-
- The Jackal nods towards the entrance to the King&apos;s door. &quot;All that is left is to lock them in the room. There is not that many things of value in there, thankfully. I managed to take the mirror with me before I left. Lock the door so I can get rid of the intruders.
-
+    <result xml:space="preserve">The wall slides open, revealing a hidden passageway. The Jackal quickly descends into the dark tunnel as you follow after him. When you finally reach the end, you find yourself back into the Main Hall as the passageway closes behind you.
 
 Main hall
-The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. A fountain of glittering water lies in the center of the room. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
+The main hall is a wonderous location, the walls rich with dozens of hieroglyphs as well as various pictures of the King and Queen as they adorn the walls. It shows their triumphs as they ruled their kingdom with a strange artifact in hand. A large diamond set in a frame of gold and sapphire. The treasury is to the North, the Queen&apos;s door is to the East, the Stone door is to the south, and the King&apos;s door is to the West.
 
 You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, and a Stone Door here.
+
+The Jackal nods towards the entrance to the King&apos;s door. &quot;All that is left is to lock them in the Hall of the Sun. There are not many things of value in there, thankfully. I managed to take the mirror with me before I left. Lock the door so I can get rid of the intruders.&quot;
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef50a00" />
     </children>
@@ -1664,32 +1662,32 @@ You can see a Queen&apos;s Door, a King&apos;s Door, an Ornate Door, and a Stone
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">(first opening the Ornate Door)
 It&apos;s locked.
-The Jackal shakes his head, &quot;You should probably get rid of the intruders first.&quot;
+The Jackal shakes his head, &quot;You should probably get rid of the intruders first.&quot; he advises.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xef123d0" />
     </children>
   </item>
   <item nodeId="node-0xef123d0">
     <command xml:space="preserve">put out lanterns</command>
-    <result xml:space="preserve">You blow out both lanterns quickly. The moment the second one goes out the door slams shut.
+    <result xml:space="preserve">You quickly extinguish both lanterns. The moment the second one goes out the door slams shut.
 
 You hear a cry of alarm as the thieves realize that they&apos;re trapped in the room!
 
 The Jackal nods, &quot;Good.&quot; he says &quot;Stand back from the door,&quot; he instructs. 
 
-After you do so, his eyes glows red. There&apos;s a bright flash of light that forces you to close your eyes. You hear the screams of the thieves before the voices are cut off. When you open your eyes nothing seems to have been changed. 
+After you do so, the Jackal&apos;s eyes glow red. There&apos;s a bright flash of light  as you hear the screams of the thieves. The screams suddenly vanish, leaving the tomb silent once more. 
 
  &quot;The thives are gone now.&quot; the Jackal smirked, &quot;Thank you for your assistance.&quot; he says, smiling.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefd5c60" />
     </children>
@@ -1701,7 +1699,7 @@ After you do so, his eyes glows red. There&apos;s a bright flash of light that f
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbd8e680" />
     </children>
@@ -1713,7 +1711,7 @@ After you do so, his eyes glows red. There&apos;s a bright flash of light that f
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbd00330" />
     </children>
@@ -1722,14 +1720,14 @@ After you do so, his eyes glows red. There&apos;s a bright flash of light that f
     <command xml:space="preserve">insert amulet into ornate door</command>
     <result xml:space="preserve">The Amulet slides in with a gentle click before it begins to glows.
 
-The ornate door glows with power before the locks fall away. 
+The ornate door glows with power before the locks and seals fade away. 
 
-&quot;Good&quot; the Jackal says he he takes both artifacts. &quot;Now the treasury is open.&quot; The Jackal moves into the Treasury.
+&quot;Good&quot; the Jackal says he he takes both artifacts from the slots. The moment he does so, both of them vanish with a burst of light. &quot;Now the treasury is open. You may enter first.&quot;
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xefe6d40" />
     </children>
@@ -1740,7 +1738,7 @@ The ornate door glows with power before the locks fall away.
 You slowly open the door with apprehension on your face.
 
 Treasury
-The Treasury is filled with various treasures of different sizes. All of Egypt&apos;s wealth is here. In the center of the room is a bejeweled stand with a diamond set in gold, silver, and lapis-lazuli. It glows with a mysterious power.
+The Treasury is filled with various treasures of different sizes. All of Egypt&apos;s wealth is here. In the center of the room is a bejeweled stand with a diamond set in in a gold, silver, and sapphire frame. It glows with a mysterious power.
 
  &quot;Behold.&quot; the Jackal states, &quot;The Eye of Horus, the greatest treasure in all of Egypt.&quot;
 
@@ -1751,7 +1749,7 @@ You can also see an Ornate Door and a Large Black Jackal here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="154">YES</temporary>
+    <temporary score="451">YES</temporary>
     <children>
       <child nodeId="node-0xbd8dd20" />
     </children>
@@ -1777,7 +1775,81 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 &gt; </result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="153">YES</temporary>
+    <temporary score="451">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d833e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d833e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Treasury
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="451">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e8890" />
+    </children>
+  </item>
+  <item nodeId="node-0x18e8890">
+    <command xml:space="preserve">ask anubis about thieves</command>
+    <result xml:space="preserve">&quot;Unfortunately there have been several humans that attempted to enter the tomb by force. The storm usually keeps them out. But it let you in.&quot; he replies. &quot;It&apos;s not hard to see why.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="451">YES</temporary>
+    <children>
+      <child nodeId="node-0x1401f7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1401f7e0">
+    <command xml:space="preserve">x anubis</command>
+    <result xml:space="preserve">He is large black jackal with a golden collar around his neck.  When Anubis realizes that you&apos;re looking at him, he smiles. It looks like he really likes you, and you&apos;ve grown fond of him too. It&apos;s a pity that you&apos;re going to have to leave soon. You&apos;re gonna miss him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="451">YES</temporary>
+    <children>
+      <child nodeId="node-0x6da6560" />
+    </children>
+  </item>
+  <item nodeId="node-0x6da6560">
+    <command xml:space="preserve">give anubis food</command>
+    <result xml:space="preserve">(first taking Dry Survival Food)
+The jackal looks at you. &quot;I live off of the energies of the temple. I don&apos;t need to eat anything.&quot; But something tells you that he appreciated the offer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="451">YES</temporary>
+    <children>
+      <child nodeId="node-0x189e040" />
+    </children>
+  </item>
+  <item nodeId="node-0x189e040">
+    <command xml:space="preserve">x anubis</command>
+    <result xml:space="preserve">He is large black jackal with a golden collar around his neck.  When Anubis realizes that you&apos;re looking at him, he smiles. It looks like he really likes you, and you&apos;ve grown fond of him too. It&apos;s a pity that you&apos;re going to have to leave soon. You&apos;re gonna miss him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="451">YES</temporary>
+    <children>
+      <child nodeId="node-0x14057a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x14057a00">
+    <command xml:space="preserve">ask anubis about thieves</command>
+    <result xml:space="preserve">&quot;Unfortunately there have been several humans that attempted to enter the tomb by force. The storm usually keeps them out. But it let you in.&quot; he replies. &quot;It&apos;s not hard to see why.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="450">YES</temporary>
   </item>
   <item nodeId="node-0x6faeb40">
     <command xml:space="preserve">n</command>
